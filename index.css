@@ -1,0 +1,38 @@
+body{background-color:black; color:white;}
+/*Let's play the game*/
+.style-let{font-family: 'Russo One', sans-serif; font-size:8em;}
+/*Rock, Paper, Scissors, Lizard and Spock*/
+.style-rps{font-family: 'Press Start 2P', cursive; font-size:2em;}
+/*Difficulty*/
+.style-level{font-family:'Orbitron', sans-serif; font-size:40px;}
+/*Phase*/
+.style-phase{font-family:'Orbitron', sans-serif; font-size:70px; font-weight:bold; text-align:center; background-color:chartreuse; color:black;  box-shadow:0 0 15px chartreuse;}
+/*Point*/
+.board{width:30em; height:12em; margin:auto; border:dashed chartreuse; font-family:'Orbitron', sans-serif; box-shadow:0 0 20px chartreuse;}
+.point{width:100%; text-align:center; font-size:9.4em;}
+.style-user{background-color:blue; width:5em; position:relative; font-size:30px; bottom:4em; right:6em; text-align:center; box-shadow:0 0 15px blue;}
+.style-pc{background-color:red; width:5em; position:relative; font-size:30px; float:right; bottom:4em; right:-6em; text-align:center; box-shadow:0 0 15px red;}
+/*Choose*/
+.choose{width:100%;}
+.choices{position:relative; margin:auto; text-align:center; padding:1em;}
+.rock{font-size:5em; color:rgb(255, 174, 0);}
+.paper{font-size:5em; color:rgb(255, 174, 0);}
+.scissors{font-size:5em; color:rgb(255, 174, 0);}
+.lizard{font-size:5em; color:rgb(44, 139, 0);}
+.spock{font-size:5em; color:rgb(58, 109, 204);}
+.c{border-radius:50%; border:dashed rgb(255, 0, 0); background-color:rgb(183, 0, 255); width:1em; margin-right:0.5em; margin-left:0.5em; height:1em; padding:0.4em; box-shadow:0 0 15px rgb(183, 0, 255); transform:translateY(5s);}
+.c:hover{background-color:rgba(183, 0, 255, 0.459);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
