@@ -9,6 +9,10 @@ const paper= document.getElementById("p");
 const scissors= document.getElementById("s");
 const lizard= document.getElementById("l");
 const spock= document.getElementById("e");
+const restart0= document.getElementById("restart");
+const three_= document.getElementById("three")
+const five_= document.getElementById("five")
+const infinity_= document.getElementById("infinity")
 
 function get_pcchoice(){
     const choices= ["r","p","s","l","e"];
@@ -43,7 +47,7 @@ function draw(userchoice, pcchoice){
     pcpoint++;
     user_0.innerHTML= userpoint;
     pc_0.innerHTML= pcpoint;
-    result_.innerHTML= "The Pc "+transform(pcchoice)+" equals your "+transform(userchoice)+". It's a daw!";
+    result_.innerHTML= "The Pc "+transform(pcchoice)+" equals your "+transform(userchoice)+". It's a DRAW!";
 }
 
 function play(userchoice){
@@ -83,38 +87,25 @@ function play(userchoice){
     }
 }
 
-
 function main(){
-    rock.addEventListener('click', function(){
-        play("r");
-    })
-    paper.addEventListener('click', function(){
-        play("p");
-    })
-    scissors.addEventListener('click', function(){
-        play("s");
-    })
-    lizard.addEventListener('click', function(){
-        play("l");
-    })
-    spock.addEventListener('click', function(){
-        play("e");
-    })    
+    rock.addEventListener('click', function(){play("r");})
+    paper.addEventListener('click', function(){play("p");})
+    scissors.addEventListener('click', function(){play("s");})
+    lizard.addEventListener('click', function(){play("l");})
+    spock.addEventListener('click', function(){play("e");})
 }
-
 main();
 
+function restart_game(){
+    restart0.addEventListener('click', function(){})
+}
+restart_game();
 
-
-
-
-
-
-
-
-
-
-
+function choose_matches(){
+    three_.addEventListener('click', function(){})
+    five_.addEventListener('click', function(){})
+    infinity_.addEventListener('click', function(){})
+}
 
 
 
