@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rock, Paper, Scissors, Lizard, Spock Game</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+    </style>
+  </head>
+  
+  </style>
+  <body>
+    <header>
+      <a href="index.html">Home</a>
+        
+    <div class="board">
+      <div class="point">
+        <span id="user-0">0</span>:<span id="pc-0">0</span>
+      </div>
+      <div id="pc_point" class="style-pc">Pc</div>
+      <div id="user_point" class="style-user">User</div>
+    </div>
+    <div class="result"><p class="style-phase">Make your choice:</p></div>
+    <div class="choose">
+      <div class="choices">
+        <i id="r" class="fas fa-hand-rock rock c"></i>
+        <i id="p" class="fas fa-hand-paper paper c"></i>
+        <i id="s" class="fas fa-hand-scissors scissors c"></i>
+        <i id="l" class="fas fa-hand-lizard lizard c"></i>
+        <i id="e" class="fas fa-hand-spock spock c"></i>
+      </div> 
+    </div>
+    <script src="Game.js"></script>
+  </body>
+</html>
