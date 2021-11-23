@@ -1,5 +1,7 @@
 let userpoint= 0;
 let pcpoint= 0;
+let n_matches= 0;
+let limit= 0;
 const user_0= document.getElementById("user-0");
 const pc_0= document.getElementById("pc-0");
 const board_n= document.querySelector(".board");
@@ -9,7 +11,6 @@ const paper= document.getElementById("p");
 const scissors= document.getElementById("s");
 const lizard= document.getElementById("l");
 const spock= document.getElementById("e");
-const restart0= document.getElementById("restart");
 const three_= document.getElementById("three")
 const five_= document.getElementById("five")
 const infinity_= document.getElementById("infinity")
@@ -32,25 +33,26 @@ function win(userchoice, pcchoice){
     userpoint++;
     user_0.innerHTML= userpoint;
     pc_0.innerHTML= pcpoint;
-    result_.innerHTML= "Your "+transform(userchoice)+" beats the Pc "+transform(pcchoice)+". You WIN!";
+    result_.innerHTML= "Your "+transform(userchoice)+" beats the PC "+transform(pcchoice)+". You WIN!";
 }
 
 function lose(userchoice, pcchoice){
     pcpoint++;
     user_0.innerHTML= userpoint;
     pc_0.innerHTML= pcpoint;
-    result_.innerHTML= "The Pc "+transform(pcchoice)+" beats your "+transform(userchoice)+". You LOST!";
+    result_.innerHTML= "The PC "+transform(pcchoice)+" beats your "+transform(userchoice)+". You LOST!";
 }
 
 function draw(userchoice, pcchoice){
-    userpoint++;
-    pcpoint++;
     user_0.innerHTML= userpoint;
     pc_0.innerHTML= pcpoint;
-    result_.innerHTML= "The Pc "+transform(pcchoice)+" equals your "+transform(userchoice)+". It's a DRAW!";
+    result_.innerHTML= "The PC "+transform(pcchoice)+" equals your "+transform(userchoice)+". It's a DRAW!";
 }
 
 function play(userchoice){
+    let mylimit = sessionStorage.getItem('mylimit');
+    console.log(mylimit);
+    if (n_matches < mylimit) {
     const pcchoice= get_pcchoice();
     switch (userchoice + pcchoice){
         case "rs":
@@ -64,6 +66,7 @@ function play(userchoice){
         case "es":
         case "er":
             win(userchoice, pcchoice);
+            n_matches++;
             break;
         case "rp":
         case "re":
@@ -76,6 +79,7 @@ function play(userchoice){
         case "ep":
         case "el":
             lose(userchoice, pcchoice);
+            n_matches++;
             break;
         case "rr":
         case "pp":
@@ -84,6 +88,7 @@ function play(userchoice){
         case "ee":
             draw(userchoice, pcchoice);
             break;
+    }
     }
 }
 
@@ -94,17 +99,13 @@ function main(){
     lizard.addEventListener('click', function(){play("l");})
     spock.addEventListener('click', function(){play("e");})
 }
-main();
-
-function restart_game(){
-    restart0.addEventListener('click', function(){})
-}
-restart_game();
+try {choose_matches();}
+catch(err) {main();}
 
 function choose_matches(){
-    three_.addEventListener('click', function(){})
-    five_.addEventListener('click', function(){})
-    infinity_.addEventListener('click', function(){})
+    three_.addEventListener('click', function(){limit=3; sessionStorage.setItem('mylimit', limit); console.log('eh ', limit)})
+    five_.addEventListener('click', function(){limit=5; sessionStorage.setItem('mylimit', limit); console.log('eh ', limit)})
+    infinity_.addEventListener('click', function(){limit=9999; sessionStorage.setItem('mylimit', limit); console.log('eh infinito!', limit)})
 }
 
 

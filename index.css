@@ -1,14 +1,19 @@
 body{background-color:black; color:white;}
 /*Let's play the game*/
-.style-let{font-family: 'Russo One', sans-serif; font-size:8em;}
+.style-let{font-family: 'Russo One', sans-serif; font-size:8em; text-shadow:4px 4px 10px red;}
 
 /*Rock, Paper, Scissors, Lizard and Spock*/
-.style-rps{font-family: 'Press Start 2P', cursive; font-size:2em;}
+.style-rps{font-family: 'Press Start 2P', cursive; font-size:2em; text-shadow:2px 2px 5px yellow;}
+
+/*Home*/
+.home{font-family:'Orbitron', sans-serif; font-size:50px; text-decoration:none; color:white; text-shadow:2px 2px 5px white;}
+.home:hover{color:rgba(255, 255, 255, 0.575);}
 
 /*Phase*/
-.style-phase{font-family:'Orbitron', sans-serif; font-size:65px; font-weight:bold; text-align:center; background-color:chartreuse; color:black;  box-shadow:0 0 15px chartreuse;}
+.style-phase{font-family:'Orbitron', sans-serif; font-size:65px; font-weight:bold; text-align:center; text-shadow:2px 2px 5px rgb(24, 83, 192); background-color:chartreuse; color:rgb(24, 83, 192); padding-bottom:10px; box-shadow:0 0 20px rgb(44, 118, 255);;}
+
 /*Point*/
-.board{width:30em; height:12em; margin:auto; border:dashed chartreuse; font-family:'Orbitron', sans-serif; box-shadow:0 0 20px chartreuse; border-radius:10px; background-color:rgb(24, 83, 192);}
+.board{width:30em; height:12em; margin:auto; border:dashed chartreuse; font-family:'Orbitron', sans-serif; box-shadow:0 0 40px rgb(24, 83, 192); border-radius:10px; background-color:rgb(24, 83, 192);}
 .point{width:100%; text-align:center; font-size:9.4em;}
 .style-user{background-color:blue; width:5em; position:relative; font-size:30px; bottom:4em; right:6em; text-align:center; box-shadow:0 0 15px blue; border-radius:10px;}
 .style-pc{background-color:red; width:5em; position:relative; font-size:30px; float:right; bottom:4em; right:-6em; text-align:center; box-shadow:0 0 15px red; border-radius:10px;}
@@ -20,25 +25,32 @@ body{background-color:black; color:white;}
 .paper{font-size:5em; color:rgb(255, 174, 0);}
 .scissors{font-size:5em; color:rgb(255, 174, 0);}
 .lizard{font-size:5em; color:rgb(44, 139, 0);}
-.spock{font-size:5em; color:rgb(58, 109, 204);}
+.spock{font-size:5em; color:rgb(31, 99, 226);}
 .c{border-radius:50%; border:dashed rgb(255, 0, 0); background-color:rgb(183, 0, 255); width:1em; margin-right:0.5em; margin-left:0.5em; height:1em; padding:0.4em; box-shadow:0 0 15px rgb(183, 0, 255); transform:translateY(5s);}
 .c:hover{background-color:rgba(183, 0, 255, 0.459);}
 
+/*Restart*/
+.style-re{font-family:'Orbitron', sans-serif; font-size:2em; text-shadow:1px 1px 5px rgb(24, 83, 192); color:rgb(24, 83, 192); font-weight:bold; text-decoration:none; box-shadow:0 0 20px rgb(44, 118, 255);; background-color:rgb(44, 139, 0); padding:15px; transition:all 0.5s;}
+.style-link-re{justify-content:center; display:flex; position:relative; top:5em;}
+.style-re:hover{box-shadow:0 0 30px rgb(44, 118, 255);}
+
 /*Number of maches*/
-.style-choose{margin:auto; width:75em; height:25em; border-radius:30px; border:dashed yellow; text-align:center; background-color:rgb(24, 83, 192);}
-.style-matches{font-family:'Orbitron', sans-serif; font-size:60px;}
-.option{font-family:'Orbitron', sans-serif; font-size:40px; text-decoration:none; color:rgba(255, 255, 255, 0.575);}
-.option:hover{font-size:50px; color:white;}
+.style-choose{margin:auto; width:75em; height:35em; border-radius:30px; border:dashed yellow; box-shadow:0 0 40px rgb(24, 83, 192); text-align:center; background-color:rgb(24, 83, 192);}
+.style-matches{font-family:'Orbitron', sans-serif; font-size:70px; font-weight:bold;}
+.option{font-family:'Orbitron', sans-serif; font-size:50px; text-decoration:none; color:rgba(255, 255, 255, 0.575);}
+.option:hover{font-size:60px; color:white;}
 .set{color:rgba(255, 255, 0, 0);}
-.set:hover{color:yellow; font-size:50px;}
+.set:hover{color:yellow; font-size:70px; text-shadow:0px 10px 5px rgb(20, 25, 46);}
+.option:active{color:yellow; font-size:60px;}
+
 
 /*Start*/
 .style-link{display:flex; justify-content:center;}
 .style-start{font-family:'Orbitron', sans-serif; font-size:9em; text-decoration:none; color:rgb(255, 110, 110); font-weight:bold; border-radius:20px; padding:20px; text-shadow:red 5px 5px 15px;}
 .style-start:hover{color:rgba(255, 255, 255, 0.589); font-size:10em;}
+.style-start:active{color:white;}
 
-.style-re{font-family:'Orbitron', sans-serif; font-size:2em; color:black; font-weight:bold; text-decoration:none; box-shadow:0 0 15px rgb(44, 139, 0); background-color:rgb(44, 139, 0); padding:15px;}
-.style-link-re{justify-content:center; display:flex; position:relative; top:5em;}
+
 
 
 
