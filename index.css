@@ -19,17 +19,32 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .home:hover{color:rgba(255, 255, 255, 0.575);}
 
 /*Point*/
-.board{width:26em; height:10em; margin:auto; border:dashed white; box-shadow:0 0 40px black; border-radius:10px; background-color:rgb(29, 27, 32);}
+.board{width:23em; height:20em; margin:auto; box-shadow:0 0 40px rgb(29, 27, 32); border-radius:50%; background-color:rgb(29, 27, 32);}
 .point{width:100%; text-align:center; font-size:8em;}
+.pp{position:relative; top:50px;}
+.pp0{position:relative; top:70px;}
 
-.style-user{background-color:rgb(184, 27, 48); width:5em; position:relative; font-size:40px; bottom:4em; right:6em; text-align:center; box-shadow:0 0 15px rgb(184, 27, 48); border-radius:10px;}
-.style-pc{background-color:orange; width:5em; position:relative; font-size:40px; float:right; bottom:4em; right:-6em; text-align:center; box-shadow:0 0 15px orange; border-radius:10px;}
+.style-user{background-color:rgb(29, 27, 32); width:150px; height:150px; position:relative; font-size:40px; z-index:-1; bottom:5em; right:2.5em; text-align:center; box-shadow:0 0 15px rgb(29, 27, 32); border-radius:50%;}
+.style-pc{background-color:rgb(29, 27, 32); width:150px; height:150px; position:relative; font-size:40px; z-index:-1; float:right; bottom:5em; right:-2.5em; text-align:center; box-shadow:0 0 15px rgb(29, 27, 32); border-radius:50%;}
 
 /*Hands*/
-.pc-hand{transform:rotateY(180deg);}
-.choices{max-width:50em; margin:auto;}
-.center-hands,
-.choices{display:flex; justify-content:space-around; align-items:center;}
+.pc-hand{transform:rotateY(180deg); width:900px; margin-right:-100px;}
+.user-hand{width:900px; margin-left:-100px;}
+.center-hands{width:100%; display:flex; justify-content:center; position:relative; top:-150px;}
+
+/*Phase*/
+.style-phase{font-size:50px; text-align:center; color:white;}
+
+/*Choose*/
+.choose{width:100%; position:relative; top:-300px;}
+.choices{margin:auto; font-size:90px; text-align:center;}
+.c{padding-left:20px; padding-right:20px; text-shadow:4px 4px 20px black; transition:all 0.5s;}
+.c:hover{color:black; text-shadow:4px 4px 20px white;}
+
+/*Restart*/
+.style-re{font-size:2em; color:white; text-decoration:none; box-shadow:0 0 30px rgb(29, 27, 32); background-color:rgb(29, 27, 32); padding:15px; transition:all 0.5s;}
+.style-link-re{position:relative; top:200px;}
+.style-re:hover{box-shadow:0 0 30px white;}
 
 @keyframes shakeUser {
   0% {transform: translateY(0px);}
@@ -55,19 +70,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
     100% {transform: rotateY(180deg) translateY(0px);}
   }
 
-/*Phase*/
-.style-phase{font-size:50px; text-align:center; color:white; padding-bottom:10px;}
 
-/*Choose*/
-.choose{width:100%;}
-.choices{position:relative; margin:auto; text-align:center; padding:1em; top:-3em;}
-.c{padding:20px; font-size:3em;}
-.c:hover{color:black;}
-
-/*Restart*/
-.style-re{font-size:2em; color:white; text-decoration:none; box-shadow:0 0 30px rgb(29, 27, 32); background-color:rgb(29, 27, 32); padding:15px; transition:all 0.5s;}
-.style-link-re{justify-content:center; display:flex; position:relative; top:-30em;}
-.style-re:hover{box-shadow:0 0 30px white;}
 
 
 

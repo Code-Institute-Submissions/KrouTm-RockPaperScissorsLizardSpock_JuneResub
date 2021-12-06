@@ -15,25 +15,28 @@
   
   </style>
   <body>
-    <header>
-      <a href="index.html" class="home">Home</a>
+    <a href="index.html" class="home">Home</a>
     <div class="board">
       
       <div class="point">
-        <span id="user-0">0</span>:<span id="pc-0">0</span>
+        <div class="pp0"><span id="user-0">0</span>:<span id="pc-0">0</span></div>
       </div>
 
-      <div id="pc_point" class="style-pc">PC</div>
-      <div id="user_point" class="style-user">User</div>
+      <div id="pc_point" class="style-pc"><div class="pp">PC</div></div>
+      <div id="user_point" class="style-user"><div class="pp">User</div></div>
       
     </div>
-    <div class="result"><p class="style-phase">Make your choice:</p></div>
+    
     <div class="center-hands">
-      <img class="user-hand" src="rock.png" alt="">
-      <img class="pc-hand" src="rock.png" alt="">
+      <img class="user-hand" src="Rock.png" alt="">
+      <div class="style-link-re"><a href="" class="style-re">Restart</a></div>
+      <img class="pc-hand" src="Rock.png" alt="">
+      
     </div>
+
     <div class="choose">
       <div class="choices">
+        <div class="result"><p class="style-phase">Make your choice:</p></div>
         <i id="Rock" class="fas fa-hand-rock c"></i>
         <i id="Paper" class="fas fa-hand-paper c"></i>
         <i id="Scissors" class="fas fa-hand-scissors c"></i>
@@ -41,7 +44,7 @@
         <i id="Spock" class="fas fa-hand-spock c"></i>
       </div>
     </div>
-    <div class="style-link-re"><a href="" class="style-re">Restart</a></div>
+    
     <script src="Game.js"></script>
   </body>
 </html>

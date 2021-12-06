@@ -25,13 +25,10 @@ function playMatch() {
 
     choices.forEach(choice => {
         choice.addEventListener("click", function() {
-            console.log(mylimit)
-            console.log(n_matches)
             if (n_matches < mylimit){
                 const random_n= (Math.floor(Math.random()*5));
                 const pcchoice = choicespc[random_n];
                 setTimeout(() => {
-                    console.log(this.id)
                     compareHands(this.id, pcchoice);
                     userhand.src = `${this.id}.png`;
                     pchand.src = `${pcchoice}.png`;
@@ -39,7 +36,7 @@ function playMatch() {
                 userhand.style.animation = "shakeUser 2s ease";
                 pchand.style.animation = "shakePC 2s ease";
             }
-            else {console.log("cabo suas chance!")}
+            else {return}
         });
     });
 };
