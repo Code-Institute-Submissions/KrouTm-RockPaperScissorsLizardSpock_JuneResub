@@ -19,28 +19,29 @@ function playMatch() {
     const userhand = document.querySelector(".user-hand");
     const pchand = document.querySelector(".pc-hand");
     const hands = document.querySelectorAll(".center-hands img");
+    /*Hands animation*/
     hands.forEach(hand => {hand.addEventListener("animationend", function() {this.style.animation = "";});});
-    const choicespc = ["Rock","Paper","Scissors","Lizard","Spock"];
+    /*Defines number of plays*/
     let mylimit = sessionStorage.getItem('mylimit');
-
-    choices.forEach(choice => {
-        choice.addEventListener("click", function() {
-            if (n_matches < mylimit){
-                const random_n= (Math.floor(Math.random()*5));
-                const pcchoice = choicespc[random_n];
-                setTimeout(() => {
-                    compareHands(this.id, pcchoice);
-                    userhand.src = `${this.id}.png`;
-                    pchand.src = `${pcchoice}.png`;
-                }, 2000);
-                userhand.style.animation = "shakeUser 2s ease";
-                pchand.style.animation = "shakePC 2s ease";
-            }
-            else {return}
-        });
-    });
-};
-
+    choices.forEach(choice => {choice.addEventListener("click", function(){
+        if (n_matches < mylimit){
+            /*Randomly chooses a PC move*/
+            const choicespc = ["Rock","Paper","Scissors","Lizard","Spock"];
+            const random_n= (Math.floor(Math.random()*5));
+            const pcchoice = choicespc[random_n];
+            /*The current image of the closed hands will be replaced by another one according to the user's choice.*/
+            setTimeout(() => {
+                compareHands(this.id, pcchoice);
+                userhand.src = `${this.id}.png`;
+                pchand.src = `${pcchoice}.png`;
+            }, 2000);
+            /*Animation of hands*/
+            userhand.style.animation = "shakeUser 2s ease";
+            pchand.style.animation = "shakePC 2s ease";
+        }
+        else {return}
+    });});};
+/*Score update*/
 function updateUser(){
     userpoint++;
     userpoint_0.innerHTML= userpoint;
@@ -50,15 +51,11 @@ function updatePC(){
     pcpoint_0.innerHTML= pcpoint;
 };
 
-function pUser(){
-    result_.textContent="ola"
-}
-
-function pPC(){
-    result_.textContent="sla"
-}
-
 const compareHands = (userchoice, pcchoice) => {
+    /*Sentence to inform the player who won the point*/
+    function pUser(){result_.textContent=`Your ${userchoice} was beaten by PC's ${pcchoice}. You Win!`}
+    function pPC(){result_.textContent=`Your ${userchoice} loses to PC's ${pcchoice}. You Lost!`}
+    /*compare the PC's choice with the user's and update the points*/
     if(userchoice === pcchoice){result_.textContent="It's a DRAW!";}
     else if(userchoice === "Rock"){n_matches++;
         if(pcchoice === "Scissors" || pcchoice === "Lizard"){pUser(); updateUser();} else{pPC(); updatePC();}}
@@ -71,7 +68,7 @@ const compareHands = (userchoice, pcchoice) => {
     else if(userchoice === "Spock"){n_matches++;
         if(pcchoice === "Scissors" || pcchoice === "Rock"){pUser(); updateUser();} else{pPC(); updatePC();}}
 }
-
+/*Define the number of moves*/
 function choose_matches(){
     three_.addEventListener('click', function(){limit=3; sessionStorage.setItem('mylimit', limit);})
     five_.addEventListener('click', function(){limit=5; sessionStorage.setItem('mylimit', limit);})

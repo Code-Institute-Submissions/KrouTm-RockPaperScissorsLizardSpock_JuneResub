@@ -3,7 +3,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .style-let{font-weight:bold; font-size:8em; text-shadow:4px 4px 10px black;}
 
 /*Rock, Paper, Scissors, Lizard and Spock*/
-.style-rps{font-family: 'Press Start 2P', cursive; font-size:2em; text-shadow:2px 2px 5px rgb(184, 27, 48);}
+.style-rps{font-family: 'Press Start 2P', cursive; font-size:2em; text-shadow:2px 2px 5px orange;}
 
 /*Number of maches*/
 .style-choose{margin:auto; width:75em; height:35em; border-radius:30px; border:dashed rgb(255, 255, 255); box-shadow:0 0 40px black; text-align:center; background-color:rgb(29, 27, 32);}
@@ -30,10 +30,10 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 /*Hands*/
 .pc-hand{transform:rotateY(180deg); width:900px; margin-right:-100px;}
 .user-hand{width:900px; margin-left:-100px;}
-.center-hands{width:100%; display:flex; justify-content:center; position:relative; top:-150px;}
+.center-hands{width:100%; display:flex; justify-content:center; position:relative; top:-170px;}
 
 /*Phase*/
-.style-phase{font-size:50px; text-align:center; color:white;}
+.style-phase{font-size:50px; text-align:center; color:white; position:relative; top:40px;}
 
 /*Choose*/
 .choose{width:100%; position:relative; top:-300px;}
