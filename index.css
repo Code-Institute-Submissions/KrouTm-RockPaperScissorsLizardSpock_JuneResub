@@ -33,12 +33,12 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .center-hands{width:100%; display:flex; justify-content:center; position:relative; top:-170px;}
 
 /*Phrase*/
-.style-phrase{font-size:50px; text-align:center; color:white; position:relative; top:40px;}
+.style-phrase{font-size:50px; text-align:center; color:white; position:relative; top:40px; text-shadow:2px 2px 10px black;}
 
 /*Make your choice:*/
 .choose{width:100%; position:relative; top:-300px;}
 .choices{margin:auto; font-size:90px; text-align:center;}
-.c{padding-left:20px; padding-right:20px; text-shadow:4px 4px 20px black; transition:all 0.5s;transform:rotateY(180deg);}
+.c{padding-left:20px; padding-right:20px; text-shadow:4px 4px 20px black; transition:all 0.5s; transform:rotateY(180deg);}
 .c:hover{color:black; text-shadow:4px 4px 20px white;}
 
 /*Restart*/
