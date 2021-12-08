@@ -1,9 +1,10 @@
 body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color:white;}
+
 /*Let's play the game*/
 .style-let{font-weight:bold; font-size:8em; text-shadow:4px 4px 10px black;}
 
 /*Rock, Paper, Scissors, Lizard and Spock*/
-.style-rps{font-family: 'Press Start 2P', cursive; font-size:2em; text-shadow:2px 2px 5px orange;}
+.style-rps{font-family:'Orbitron', sans-serif; font-size:3em; text-shadow:2px 2px 5px orange;}
 
 /*Number of maches*/
 .style-choose{margin:auto; width:75em; height:35em; border-radius:30px; border:dashed rgb(255, 255, 255); box-shadow:0 0 40px black; text-align:center; background-color:rgb(29, 27, 32);}
@@ -18,12 +19,11 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .home{font-size:40px; text-decoration:none; color:white; text-shadow:2px 2px 5px white;}
 .home:hover{color:rgba(255, 255, 255, 0.575);}
 
-/*Point*/
+/*Score board*/
 .board{width:23em; height:20em; margin:auto; box-shadow:0 0 40px rgb(29, 27, 32); border-radius:50%; background-color:rgb(29, 27, 32);}
 .point{width:100%; text-align:center; font-size:8em;}
 .pp{position:relative; top:50px;}
 .pp0{position:relative; top:70px;}
-
 .style-user{background-color:rgb(29, 27, 32); width:150px; height:150px; position:relative; font-size:40px; z-index:-1; bottom:5em; right:2.5em; text-align:center; box-shadow:0 0 15px rgb(29, 27, 32); border-radius:50%;}
 .style-pc{background-color:rgb(29, 27, 32); width:150px; height:150px; position:relative; font-size:40px; z-index:-1; float:right; bottom:5em; right:-2.5em; text-align:center; box-shadow:0 0 15px rgb(29, 27, 32); border-radius:50%;}
 
@@ -32,10 +32,10 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .user-hand{width:900px; margin-left:-100px;}
 .center-hands{width:100%; display:flex; justify-content:center; position:relative; top:-170px;}
 
-/*Phase*/
-.style-phase{font-size:50px; text-align:center; color:white; position:relative; top:40px;}
+/*Phrase*/
+.style-phrase{font-size:50px; text-align:center; color:white; position:relative; top:40px;}
 
-/*Choose*/
+/*Make your choice:*/
 .choose{width:100%; position:relative; top:-300px;}
 .choices{margin:auto; font-size:90px; text-align:center;}
 .c{padding-left:20px; padding-right:20px; text-shadow:4px 4px 20px black; transition:all 0.5s;}
@@ -47,27 +47,27 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .style-re:hover{box-shadow:0 0 30px white;}
 
 @keyframes shakeUser {
-  0% {transform: translateY(0px);}
-  15% {transform: translateY(-50px);}
-  25% {transform: translateY(0px);}
-  35% {transform: translateY(-50px);}
-  50% {transform: translateY(0px);}
-  65% {transform: translateY(-50px);}
-  75% {transform: translateY(0px);}
-  85% {transform: translateY(-50px);}
-  100% {transform: translateY(0px);}
+  0%{transform:translateY(0px);}
+  15%{transform:translateY(-50px);}
+  25%{transform:translateY(0px);}
+  35%{transform:translateY(-50px);}
+  50%{transform:translateY(0px);}
+  65%{transform:translateY(-50px);}
+  75%{transform:translateY(0px);}
+  85%{transform:translateY(-50px);}
+  100%{transform:translateY(0px);}
 }
 
 @keyframes shakePC {
-    0% {transform: rotateY(180deg) translateY(0px);}
-    15% {transform: rotateY(180deg) translateY(-50px);}
-    25% {transform: rotateY(180deg) translateY(0px);}
-    35% {transform: rotateY(180deg) translateY(-50px);}
-    50% {transform: rotateY(180deg) translateY(0px);}
-    65% {transform: rotateY(180deg) translateY(-50px);}
-    75% {transform: rotateY(180deg) translateY(0px);}
-    85% {transform: rotateY(180deg) translateY(-50px);}
-    100% {transform: rotateY(180deg) translateY(0px);}
+    0%{transform:rotateY(180deg) translateY(0px);}
+    15%{transform:rotateY(180deg) translateY(-50px);}
+    25%{transform:rotateY(180deg) translateY(0px);}
+    35%{transform:rotateY(180deg) translateY(-50px);}
+    50%{transform:rotateY(180deg) translateY(0px);}
+    65%{transform:rotateY(180deg) translateY(-50px);}
+    75%{transform:rotateY(180deg) translateY(0px);}
+    85%{transform:rotateY(180deg) translateY(-50px);}
+    100%{transform:rotateY(180deg) translateY(0px);}
   }
 
 

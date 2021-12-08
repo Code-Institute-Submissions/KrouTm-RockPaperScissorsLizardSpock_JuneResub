@@ -53,7 +53,7 @@ function updatePC(){
 
 const compareHands = (userchoice, pcchoice) => {
     /*Sentence to inform the player who won the point*/
-    function pUser(){result_.textContent=`Your ${userchoice} was beaten by PC's ${pcchoice}. You Win!`}
+    function pUser(){result_.textContent=`Your ${userchoice} beats PC's ${pcchoice}. You Win!`}
     function pPC(){result_.textContent=`Your ${userchoice} loses to PC's ${pcchoice}. You Lost!`}
     /*compare the PC's choice with the user's and update the points*/
     if(userchoice === pcchoice){result_.textContent="It's a DRAW!";}
