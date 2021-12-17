@@ -2,23 +2,24 @@
  RockPaperScissorsLizardSpock Project
 
 HTML
-Esta parte do websit e bem simples pois nao havia nescessidade de complicacao. 
+This part of the website is very simple as there was no need for complication.
 - Board Score
-para marcar o numero de pontos do usuario e do pc de forma objetiva e facil de entender.
+to mark the user points and the PC points in an objective and easy to understand way.
 - Hands
-foi incluido uma imagem de maos fechadas simulando a introducao do jogo assim como na vida real.
+an image of clenched hands simulating the intro of the game just like in real life was included.
 - Options
-foi colocado mais duas opcoes de jogada alem do tradicional pedra papel tesura, para tornar o joog menos limitado.
+Two more play options have been added in addition to the traditional rock paper scissors to make the game less limited.
 -Reset
-para que o usuario tenha a facilidade em recomecar o jogo quantas vezes e no momento que desejar.
+so that the user has the facility to restart the game as often and whenever he wants.
 
 CSS
-- ao contrario do Html, nao economizei recursos para dar estilo ao website.
-- o design todo do jogo foi inspirado no mickey e suas cores classicas.
-- ferramentas como Krita foram usados para fazer o desenho das maos nos formatos que necessitava para o desenvolvimento do jogo.
-- apesar de mtos detalhes escritos no codigo, nao interferiu na simplicidade do website, sendo esta a intencao desde o comeco.
-- em todos os icones que foram feitos para ser clicados, foi usado o recurso do a:hover para que o usuario tenha certeza que o icone e uma opcao de click.
+- Unlike Html, I didn't save resources to give style to the website.
+- the whole game design was inspired by mickey and its classic colors.
+- tools like Krita were used to draw the hands in the formats needed for game development.
+- despite many details written in the code, it did not interfere with the simplicity of the website, which was the intention from the beginning.
+- on all icons that were made to be clicked, the a:hover feature was used so the user can be sure the icon is a click option.
 
 JavaScript
-- o primeiro dilema foi como tornaria o site menos estatico e entediante, pois o jogo deveria ser pratico e ao mesmo tempo interessante visualmente, criar uma movimentacao seria necessario para isso.
-- apos declarar todas as variaveis que seria necessarias para dar ordens a elas, foram feitas as opcoes de escolha "melhor de tres", "melhor de 5" e "infinito", a ultima opcao foi deixada apenas para testores, pois nao seria apropriado ter um placar maior que 2 digitos para cada jogador.
+- The first dilemma was how to make the site less static and boring, as the game should be practical and at the same time visually interesting, creating a movement would be necessary for that.
+- after declaring all the variables that would be necessary to give orders to them, the "best of three", "best of 5" and "infinite" choice were made, the last option was left only for testing, as it would not be appropriate have a score greater than 2 digits for each player.
+- the movement of the hands up and down was created to give a more interactive touch to the user and make it less boring and simple
