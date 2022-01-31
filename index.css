@@ -70,10 +70,10 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .style-let{font-size: 40px;}
   .style-rps{font-size: 15px;}
   .style-choose{width: 90%; height: 10em;}
-  .style-matches{font-size: 25px; padding: 15px 0;}
-  .set:hover{font-size: 25px;}
-  .option{font-size: 23px;}
-  .option:hover{font-size: 25px;}
+  .style-matches{font-size: 20px; padding: 15px 0;}
+  .set:hover{font-size: 20px;}
+  .option{font-size: 17px;}
+  .option:hover{font-size: 20px;}
 }
 
 /*481px — 768px: iPads, Tablets*/
