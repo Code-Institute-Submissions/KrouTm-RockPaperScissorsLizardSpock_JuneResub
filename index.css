@@ -1,22 +1,22 @@
 body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color:white;}
+*{text-decoration:none; font-family:'Orbitron', sans-serif;}
 
 /*Let's play the game*/
-.style-let{font-weight:bold; font-size:8em; text-shadow:4px 4px 10px black;}
+.style-let{font-weight:bold; font-size:8em; text-shadow:0 0 20px black;}
 
 /*Rock, Paper, Scissors, Lizard and Spock*/
-.style-rps{font-size:3em; text-shadow:2px 2px 5px orange;}
+.style-rps{font-size:3em; text-shadow:0 0 20px orange;}
 
 /*Number of maches*/
-.style-choose{margin:auto; width:75em; height:35em; border-radius:30px; border:dashed rgb(255, 255, 255); box-shadow:0 0 40px black; text-align:center; background-color:rgb(29, 27, 32);}
+.style-choose{padding: 20px; margin:auto; width:70%; height: 35em; border-radius:30px; border:dashed rgb(255, 255, 255); box-shadow:0 0 40px black; text-align:center; background-color:rgb(29, 27, 32);}
 .style-matches{font-size:70px;}
-.option{font-family:'Orbitron', sans-serif; font-size:50px; color:rgba(184, 27, 48); text-decoration:none;}
-.option:hover{font-size:60px; color:white;}
+.option{font-size:70px; color:rgba(184, 27, 48); transition: all .2s;}
+.option:hover{font-size:80px; color:white;}
 .set{color:rgba(255, 255, 0, 0);}
-.set:hover{color:orange; font-size:70px; text-shadow:0px 10px 8px rgba(184, 27, 48);}
-.option:active{color:rgba(255, 166, 0, 0.473); font-size:60px;}
+.set:hover{color:orange; font-size:80px; text-shadow:0px 10px 8px rgba(184, 27, 48);}
 
 /*Home*/
-.home{font-size:40px; text-decoration:none; color:white; text-shadow:2px 2px 5px white;}
+.home{font-size:40px; color:white; text-shadow:2px 2px 5px white;}
 .home:hover{color:rgba(255, 255, 255, 0.575);}
 
 /*Score board*/
@@ -27,22 +27,19 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .p-name{justify-content: center; align-items: center;}
 
 /*Hands*/
-.pc-hand{transform:rotateY(180deg); width:80%;}
-.user-hand{width:80%;}
+.pc-hand{width:50%; transform:rotateY(180deg);}
+.user-hand{width:50%;}
 .center-hands{width:100%; display:flex; justify-content: center;}
 
-/*Phrase*/
-.style-phrase{font-size:50px; text-align:center; color:white; position:relative; top:40px; text-shadow:2px 2px 10px black;}
+/*Restart*/
+.style-re{position:relative; text-align: center; display: block; font-size:80px; text-shadow: 0 0 20px white; color:rgb(29, 27, 32); transition:all 0.5s;}
+.style-re:hover{text-shadow: 0 0 30px rgb(29, 27, 32); color:white;}
 
 /*Make your choice:*/
-.choose{width:100%; position:relative;}
-.choices{font-size:90px; text-align:center;}
-.c{padding-left:20px; padding-right:20px; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; transform:rotateY(180deg); cursor: pointer;}
+.choices{width:100%; position:relative; font-size:90px; text-align:center;}
+.style-phrase{font-size:50px; color:white; text-shadow:0 0 20px black;}
+.c{padding: 0 20px; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; transform:rotateY(180deg); cursor: pointer;}
 .c:hover{color:rgb(29, 27, 32); text-shadow:4px 4px 20px white;}
-
-/*Restart*/
-.style-re{position:relative; justify-content: center; align-items: center; margin: auto; text-align: center; display: flex; font-size:80px; text-shadow: 0 0 20px white; color:rgb(29, 27, 32); text-decoration:none; transition:all 0.5s; padding: 5px;}
-.style-re:hover{text-shadow: 0 0 30px rgb(29, 27, 32); color:white;}
 
 @keyframes shakeUser {
   0%{transform:translateY(0px);}
@@ -67,13 +64,3 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   85%{transform:rotateY(180deg) translateY(-50px);}
   100%{transform:rotateY(180deg) translateY(0px);}
 }
-
-
-
-
-
-
-
-
-
-
