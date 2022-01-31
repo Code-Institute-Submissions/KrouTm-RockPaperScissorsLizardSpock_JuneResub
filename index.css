@@ -16,11 +16,15 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .set:hover{color:orange; font-size:80px; text-shadow:0px 10px 8px rgba(184, 27, 48);}
 
 /*Home*/
-.home{font-size:40px; color:white; text-shadow:2px 2px 5px white;}
-.home:hover{color:rgba(255, 255, 255, 0.575);}
+.home{position: relative; font-size: 60px; color:white; text-shadow:2px 2px 5px white; transition:all 0.2s;}
+.home:hover{text-shadow: 0 0 30px rgb(29, 27, 32); color:white;}
+
+/*Restart*/
+.style-re{position:relative; float: right; font-size: 60px; color:white; text-shadow:2px 2px 5px white; transition:all 0.2s;}
+.style-re:hover{text-shadow: 0 0 30px rgb(29, 27, 32); color:white;}
 
 /*Score board*/
-.board{box-shadow:0 0 40px rgb(29, 27, 32); border-radius:50%; background-color:rgb(29, 27, 32); width:200px; margin:auto; position: relative; font-size: 80px; text-align: center; padding: 50px}
+.board{box-shadow:0 0 40px rgb(29, 27, 32); border-radius:50%; background-color:rgb(29, 27, 32); width:200px; margin:auto; position: relative; font-size: 80px; text-align: center; padding: 50px;}
 .s-name{background-color:rgb(29, 27, 32); box-shadow:0 0 15px rgb(29, 27, 32); border-radius:50%; font-size: 30px; width: 100px; height: 100px; top:0;}
 #pc_point{position: absolute; top:-40px; right: -50px;}
 #user_point{position: absolute; top:-40px; left: -50px;}
@@ -30,10 +34,6 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .pc-hand{width:50%; transform:rotateY(180deg);}
 .user-hand{width:50%;}
 .center-hands{width:100%; display:flex; justify-content: center;}
-
-/*Restart*/
-.style-re{position:relative; text-align: center; display: block; font-size:80px; text-shadow: 0 0 20px white; color:rgb(29, 27, 32); transition:all 0.5s;}
-.style-re:hover{text-shadow: 0 0 30px rgb(29, 27, 32); color:white;}
 
 /*Make your choice:*/
 .choices{width:100%; position:relative; font-size:90px; text-align:center;}
