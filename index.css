@@ -20,8 +20,8 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .home:hover{text-shadow: 0 0 30px rgb(29, 27, 32); color:white;}
 
 /*Restart*/
-.style-re{position:relative; float: right; font-size: 60px; color:white; text-shadow:2px 2px 5px white; transition:all 0.2s;}
-.style-re:hover{text-shadow: 0 0 30px rgb(29, 27, 32); color:white;}
+.restart{position:relative; float: right; font-size: 60px; color:white; text-shadow:2px 2px 5px white; transition:all 0.2s;}
+.restart:hover{text-shadow: 0 0 30px rgb(29, 27, 32); color:white;}
 
 /*Score board*/
 .board{box-shadow:0 0 40px rgb(29, 27, 32); border-radius:50%; background-color:rgb(29, 27, 32); width:200px; margin:auto; position: relative; font-size: 80px; text-align: center; padding: 50px;}
@@ -67,22 +67,54 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 
 /*320px — 480px: Mobile devices*/
 @media (min-width:320px) and (max-width:480px){
+  /*Let's play the game*/
   .style-let{font-size: 40px;}
+  /*Rock, Paper, Scissors, Lizard and Spock*/
   .style-rps{font-size: 15px;}
+  /*Number of maches*/
   .style-choose{width: 90%; height: 10em;}
   .style-matches{font-size: 20px; padding: 15px 0;}
   .set:hover{font-size: 20px;}
   .option{font-size: 17px;}
   .option:hover{font-size: 20px;}
+  /*Home*/
+  .home{font-size: 30px;}
+  /*Restart*/
+  .restart{font-size: 30px;}
+  /*Score board*/
+  .board{width:100px; font-size: 50px; padding: 20px;}
+  .s-name{font-size: 15px; width: 60px; height: 60px;}
+  #pc_point{top:-30px; right: -20px;}
+  #user_point{top:-30px; left: -20px;}
+  /*Make your choice:*/
+  .choices{font-size:40px;}
+  .style-phrase{font-size:25px;}
+  .c{padding: 0 10px;}
 }
 
 /*481px — 768px: iPads, Tablets*/
 @media (min-width:481px) and (max-width:768px){
+  /*Let's play the game*/
   .style-let{font-size: 50px;}
+  /*Rock, Paper, Scissors, Lizard and Spock*/
   .style-rps{font-size: 20px;}
+  /*Number of maches*/
   .style-choose{width: 90%; height: 15em;}
   .style-matches{font-size: 30px; padding: 20px 0;}
   .set:hover{font-size: 30px;}
   .option{font-size: 27px;}
-  .option:hover{font-size: 30px;}
+  .option:hover{font-size: 30px;} 
+  /*Home*/
+  .home{font-size: 40px;}
+  /*Restart*/
+  .restart{font-size: 40px;}
+  /*Score board*/
+  .board{width:150px; font-size: 60px; padding: 30px;}
+  .s-name{font-size: 20px; width: 80px; height: 80px;}
+  #pc_point{top:-40px; right: -30px;}
+  #user_point{top:-40px; left: -30px;}
+  /*Make your choice:*/
+  .choices{font-size:50px;}
+  .style-phrase{font-size:30px;}
+  .c{padding: 0 15px;}
 }
