@@ -9,7 +9,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 
 /*Number of maches*/
 .style-choose{padding: 20px; margin:auto; width:70%; height: 35em; border-radius:30px; border:dashed rgb(255, 255, 255); box-shadow:0 0 40px black; text-align:center; background-color:rgb(29, 27, 32);}
-.style-matches{font-size:70px;}
+.style-matches{font-size:70px; padding: 60px 0;}
 .option{font-size:70px; color:rgba(184, 27, 48); transition: all .2s;}
 .option:hover{font-size:80px; color:white;}
 .set{color:rgba(255, 255, 0, 0);}
@@ -63,4 +63,26 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   75%{transform:rotateY(180deg) translateY(0px);}
   85%{transform:rotateY(180deg) translateY(-50px);}
   100%{transform:rotateY(180deg) translateY(0px);}
+}
+
+/*320px — 480px: Mobile devices*/
+@media (min-width:320px) and (max-width:480px){
+  .style-let{font-size: 40px;}
+  .style-rps{font-size: 15px;}
+  .style-choose{width: 90%; height: 10em;}
+  .style-matches{font-size: 25px; padding: 15px 0;}
+  .set:hover{font-size: 25px;}
+  .option{font-size: 23px;}
+  .option:hover{font-size: 25px;}
+}
+
+/*481px — 768px: iPads, Tablets*/
+@media (min-width:481px) and (max-width:768px){
+  .style-let{font-size: 50px;}
+  .style-rps{font-size: 20px;}
+  .style-choose{width: 90%; height: 15em;}
+  .style-matches{font-size: 30px; padding: 20px 0;}
+  .set:hover{font-size: 30px;}
+  .option{font-size: 27px;}
+  .option:hover{font-size: 30px;}
 }
