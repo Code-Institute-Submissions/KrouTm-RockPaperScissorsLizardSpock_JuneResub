@@ -74,7 +74,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   /*Number of maches*/
   .style-choose{width: 90%; height: 10em;}
   .style-matches{font-size: 20px; padding: 15px 0;}
-  .set:hover{font-size: 20px;}
+  .set:hover{font-size: 17px;}
   .option{font-size: 17px;}
   .option:hover{font-size: 20px;}
   /*Home*/
