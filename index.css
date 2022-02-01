@@ -85,8 +85,8 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   /*Score board*/
   .board{width:120px; font-size: 50px; padding: 40px;}
   .s-name{font-size: 15px; width: 60px; height: 60px;}
-  #pc_point{top:-30px; right: -25px;}
-  #user_point{top:-30px; left: -25px;}
+  #pc_point{top:-25px; right: -20px;}
+  #user_point{top:-25px; left: -20px;}
   /*Make your choice:*/
   .choices{font-size:40px;}
   .style-phrase{font-size:25px;}
