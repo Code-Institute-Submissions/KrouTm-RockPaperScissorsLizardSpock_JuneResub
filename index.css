@@ -41,6 +41,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .c{padding: 0 20px; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; transform:rotateY(180deg); cursor: pointer;}
 .c:hover{color:rgb(29, 27, 32); text-shadow:4px 4px 20px white;}
 
+/*User's hand movement*/
 @keyframes shakeUser {
   0%{transform:translateY(0px);}
   15%{transform:translateY(-50px);}
@@ -52,7 +53,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   85%{transform:translateY(-50px);}
   100%{transform:translateY(0px);}
 }
-
+/*PC's hand movement*/
 @keyframes shakePC {
   0%{transform:rotateY(180deg) translateY(0px);}
   15%{transform:rotateY(180deg) translateY(-50px);}
@@ -91,7 +92,6 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .style-phrase{font-size:25px;}
   .c{padding: 0 5px;}
 }
-
 /*481px — 768px: iPads, Tablets*/
 @media (min-width:481px) and (max-width:768px){
   /*Let's play the game*/
@@ -118,7 +118,6 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .style-phrase{font-size:30px;}
   .c{padding: 0 15px;}
 }
-
 /*769px — 1024px: Small screens, laptops*/
 @media (min-width:769px) and (max-width:1024px){
   /*Let's play the game*/
@@ -132,7 +131,6 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .option{font-size: 40px;}
   .option:hover{font-size: 45px;} 
 }
-
 /*1025px — 1200px: Desktops, large screens*/
 @media (min-width:1025px) and (max-width:1200px){
   /*Let's play the game*/

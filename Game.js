@@ -1,19 +1,23 @@
+/*Score Board*/
 let userpoint= 0;
 let pcpoint= 0;
-let n_matches= 0;
-let limit= 0;
 const userpoint_0= document.getElementById("user-0")
 const pcpoint_0= document.getElementById("pc-0")
+/*Phrase "Make your choice:"*/
 const result_= document.querySelector(".result > p");
+/*Icons (Font Awesome) - Hands in the shape of rock, paper, scissors, lizard, spock*/
 const rock= document.getElementById("Rock");
 const paper= document.getElementById("Paper");
 const scissors= document.getElementById("Scissors");
 const lizard= document.getElementById("Lizard");
 const spock= document.getElementById("Spock");
+/*Choose the number of matches:*/
+let n_matches= 0;
+let limit= 0;
 const three_= document.getElementById("three");
 const five_= document.getElementById("five");
 const infinity_= document.getElementById("infinity");
-
+/*Start Game*/
 function playMatch() {
     const choices = document.querySelectorAll(".choices i");
     const userhand = document.querySelector(".user-hand");
@@ -41,11 +45,12 @@ function playMatch() {
         }
         else {return}
     });});};
-/*Score update*/
+/*User score update*/
 function updateUser(){
     userpoint++;
     userpoint_0.innerHTML= userpoint;
 };
+/*PC score update*/
 function updatePC(){
     pcpoint++;
     pcpoint_0.innerHTML= pcpoint;
