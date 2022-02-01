@@ -109,10 +109,10 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   /*Restart*/
   .restart{font-size: 40px;}
   /*Score board*/
-  .board{width:150px; font-size: 60px; padding: 50px;}
-  .s-name{font-size: 20px; width: 80px; height: 80px;}
-  #pc_point{top:-35px; right: -30px;}
-  #user_point{top:-35px; left: -30px;}
+  .board{width:170px; font-size: 70px; padding: 60px;}
+  .s-name{font-size:30px; width: 100px; height: 100px;}
+  #pc_point{top:-35px; right: -40px;}
+  #user_point{top:-35px; left: -40px;}
   /*Make your choice:*/
   .choices{font-size:50px;}
   .style-phrase{font-size:30px;}
