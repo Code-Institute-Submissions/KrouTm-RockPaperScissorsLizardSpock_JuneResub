@@ -32,7 +32,7 @@ SCOREBOARD
 
 HANDS
 
-- The hands I had to draw (I drew in Krita) and I used Google images to help me. I couldn't find images of hands in the formats I wanted with a transparent background to use on the site.
+- The hands I had to draw (I drew on Krita) and I used Google images to help me. I couldn't find images of hands in the formats I wanted with a transparent background to use on the site.
 - If I had more time I would like to improve the appearance of the hands and the site in general as it is very simple in my opinion.
 
 MAKE YOUR CHOICE:
@@ -40,7 +40,7 @@ MAKE YOUR CHOICE:
 - This sentence changes after the movements are made, through JavaScript code, the sentence can tell if the user crashed or lost the computer.
 - The phrase is kind of boring, it informs the player in a tedious way, I wish I had thought of a better way to bring this to the user. I imagine the player wouldn't find it fun to read phrases like these hahaha. The sentence changes whenever the result of the bid made is different from the previous one, but with more time available I could have saved it for the code to detect when the game ends and show a sentence on the screen informing the user that the game is and also adding and comparing each player's points and determining who has the most points is the winner.
 
-ERRORS AND SETTINGS
+BUGS AND SETTINGS
 
 1. The first bug as I mentioned above, is the infinite points option, I hope you understand that I could have written a more rational option, but I didn't think it was necessary and decided to keep it. It was easier to test my codes with this option available.
 

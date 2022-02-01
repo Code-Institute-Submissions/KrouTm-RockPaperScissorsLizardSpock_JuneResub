@@ -35,6 +35,8 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .user-hand{width:50%;}
 .center-hands{width:100%; display:flex; justify-content: center;}
 
+.style-lw{font-size: 100px; position: absolute; display: flex; justify-content: center; align-items: center; top: 0; right: 0; left: 0; bottom: 0;}
+
 /*Make your choice:*/
 .choices{width:100%; position:relative; font-size:90px; text-align:center;}
 .style-phrase{font-size:50px; color:white; text-shadow:0 0 20px black;}
