@@ -4,6 +4,7 @@
 <> index.html
 
 - In this one, it is possible to choose the number of moves, the third to test and make a joke, because if I were this site for the public, I would not have this option, as there is no space for three-digit numbers in the Scoreboard of the game.
+- The whole game design was inspired by mickey and its classic colors.
 
 <> Game.html
 
