@@ -55,7 +55,6 @@ function updatePC(){
     pcpoint++;
     pcpoint_0.innerHTML= pcpoint;
 };
-
 const compareHands = (userchoice, pcchoice) => {
     /*Sentence to inform the player who won the point*/
     function pUser(){result_.textContent=`Your ${userchoice} beats PC's ${pcchoice}. You Win!`}
@@ -79,6 +78,5 @@ function choose_matches(){
     five_.addEventListener('click', function(){limit=5; sessionStorage.setItem('mylimit', limit);})
     infinity_.addEventListener('click', function(){limit=9999; sessionStorage.setItem('mylimit', limit);})
 }
-
 try {choose_matches();}
 catch(err) {playMatch();}
