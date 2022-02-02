@@ -17,6 +17,16 @@ let limit= 0;
 const three_= document.getElementById("three");
 const five_= document.getElementById("five");
 const infinity_= document.getElementById("infinity");
+
+/*Define the number of moves*/
+function choose_matches(){
+    three_.addEventListener('click', function(){limit=3; sessionStorage.setItem('mylimit', limit);})
+    five_.addEventListener('click', function(){limit=5; sessionStorage.setItem('mylimit', limit);})
+    infinity_.addEventListener('click', function(){limit=9999; sessionStorage.setItem('mylimit', limit);})
+}
+try {choose_matches();}
+catch(err) {playMatch();}
+
 /*Start Game*/
 function playMatch() {
     const choices = document.querySelectorAll(".choices i");
@@ -45,6 +55,7 @@ function playMatch() {
         }
         else {return}
     });});};
+
 /*User score update*/
 function updateUser(){
     userpoint++;
@@ -55,6 +66,7 @@ function updatePC(){
     pcpoint++;
     pcpoint_0.innerHTML= pcpoint;
 };
+
 const compareHands = (userchoice, pcchoice) => {
     /*Sentence to inform the player who won the point*/
     function pUser(){result_.textContent=`Your ${userchoice} beats PC's ${pcchoice}. You Win!`}
@@ -72,11 +84,3 @@ const compareHands = (userchoice, pcchoice) => {
     else if(userchoice === "Spock"){n_matches++;
         if(pcchoice === "Scissors" || pcchoice === "Rock"){pUser(); updateUser();} else{pPC(); updatePC();}}
 }
-/*Define the number of moves*/
-function choose_matches(){
-    three_.addEventListener('click', function(){limit=3; sessionStorage.setItem('mylimit', limit);})
-    five_.addEventListener('click', function(){limit=5; sessionStorage.setItem('mylimit', limit);})
-    infinity_.addEventListener('click', function(){limit=9999; sessionStorage.setItem('mylimit', limit);})
-}
-try {choose_matches();}
-catch(err) {playMatch();}
