@@ -46,8 +46,8 @@ function playMatch() {
             /*The current image of the closed hands will be replaced by another one according to the user's choice.*/
             setTimeout(() => {
                 compareHands(this.id, pcchoice);
-                userhand.src = `../Hands/${this.id}.png`;
-                pchand.src = `../Hands/${pcchoice}.png`;
+                userhand.src = `../HandsPictures/${this.id}.png`;
+                pchand.src = `../HandsPictures/${pcchoice}.png`;
             }, 2000);
             /*Animation of hands*/
             userhand.style.animation = "shakeUser 2s ease";
