@@ -75,11 +75,11 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   /*Rock, Paper, Scissors, Lizard and Spock*/
   .style-rps{font-size: 15px;}
   /*Number of maches*/
-  .style-choose{height: 10em; padding: 5px;}
+  .style-choose{height: 10em; padding: 10px;}
   .style-matches{font-size: 15px; padding: 10px 0;}
-  .set:hover{font-size: 20px;}
-  .option{font-size: 15px;}
-  .option:hover{font-size: 20px;}
+  .set:hover{font-size: 17px;}
+  .option{font-size: 14px;}
+  .option:hover{font-size: 17px;}
   /*Home*/
   .home{font-size: 30px;}
   /*Restart*/
