@@ -3,21 +3,20 @@
 
 <> index.html
 
-- In this one, it is possible to choose the number of bids, the third to test and make a joke because if I were this site for the public, I wouldn't have this option, as there is no space for three-digit numbers on the game's scoreboard.
 - All game design was inspired by mickey and his classic colors.
 
-NUMBER OF MACHINES
+NUMBER OF MACHES
 
-- There are only three options: "Two out of three", "Three out of five" and "To infinity... and beyond!", the first two are easy to understand, the first option who scores three points the first wins and the second is five, but the third is "infinite" the number of points, in JavaScript code the limit is 9999 haha, I left this option just for fun.
+- There are only three options: "Two out of three", "Three out of five" and "To infinity... and beyond!", the first two are easy to understand, the first option is three points on total and the second is five, but the third is "infinite" points, in JavaScript code the limit is 9999 haha, I left this option just for fun, if I were this site for the public, I wouldn't have this option available, as there is no space for three-digit numbers on the game's scoreboard.
 
 <> Game.html
 
 - I spent a lot of time on this part of the site, in particular, the layout is simple but with integration to be objective.
-- The site is available for screens smaller than 320px for larger screens like full HD.
+- The site is available for screens 320px until larger screens like full HD.
 
 HOUSE
 
-- Boot to return to home screen and hire home screen for home exit, operator can choose home screen and choose other option (number of moves).
+- Home to return to index page and hire home screen for home exit, operator can choose home screen and choose other option (number of moves).
 - Before it was only written "Home", but I decided to play the word for an icon (all icons in the game are from Font Awesome), the text of changing the word to an icon was because I wanted it to take up less space on the screen, leaving it like this the cleanest look.
 
 RESTART
@@ -37,15 +36,21 @@ HANDS
 
 MAKE YOUR CHOICE:
 
-- This sentence changes after the movements are made, through JavaScript code, the sentence can tell if the user crashed or lost the computer.
-- The phrase is kind of boring, it informs the player in a tedious way, I wish I had thought of a better way to bring this to the user. I imagine the player wouldn't find it fun to read phrases like these hahaha. The sentence changes whenever the result of the bid made is different from the previous one, but with more time available I could have saved it for the code to detect when the game ends and show a sentence on the screen informing the user that the game is and also adding and comparing each player's points and determining who has the most points is the winner.
+- This sentence changes after the movements are made, through JavaScript code, the sentence can tell if the user beats or lost to the computer.
+- The phrase is kind of boring, it informs the player in a tedious way, I would like I had thought of a better way to show it to the user. I imagine the player wouldn't find it fun to read phrases like these hahaha. The sentence changes whenever the result is different from the previous one.
+
+YOU LOST & YOU WON
+
+- It's just a sentence that appears at the end of the game saying if the user won or lost adding up the total points of each one.
 
 BUGS AND SETTINGS
 
 1. The first bug as I mentioned above, is the infinite points option, I hope you understand that I could have written a more rational option, but I didn't think it was necessary and decided to keep it. It was easier to test my codes with this option available.
 
-2. The second problem which is not necessarily a bug or bug, but something that could be improved, is the phrase "Take your pick:", it would take much longer for me to find a better and clearer way to bring updates to the user of how the game is proceeding. I would like to add something that the user doesn't need to read, it can be a demo image or a visual action, and the fact that the player has to declare himself a winner or a loser since the code doesn't warn when the game ends and who won or lost in the game. round.
+2. The second problem which is not necessarily a bug or bug, but something that could be improved, is the phrase "Make your choice:", I would like to add something that the user doesn't need to read.
 
-4. If the user presses the button (Font Awesome icons) many times and too fast consecutively, the points or the hand animation would not work as they should, some points will not be added for not having had "time enough", then the user will not know why the PC or the user himself earned points, the code waits for all the animation to be done to show the points and I didn't write any way to prevent the user from pressing the button like that.
+3. If the user presses the button (Font Awesome icons) many times and too fast consecutively, the points or the hand animation would not work as they should, some points will not be added for not having had "time enough", then the user will not know why the PC or the user himself earned points, the code waits for all the animation to be done to show the points and I didn't write any way to prevent the user from pressing the button like that.
 
-3. These were the main errors I have at the moment (besides the appearance of the site that could be infinitely better), but with the basic knowledge I already have in Python, I didn't have great difficulties in understanding and writing the code. JS has some differences like having 3 types of variables, the way you call a variable and how you connect the three files (HTML, CSS and JS) was a challenge at first but it works like if, elif, else, def and random Python and JS functions are similar just written differently so to speak.
+4. Although there is a phrase that states whether the user won or the PC, the phrase only appears if the user clicks on the icons again.
+
+5. These were the main errors I have at the moment (besides the appearance of the site that could be infinitely better), but with the basic knowledge I already have in Python, I didn't have great difficulties in understanding and writing the code. JS has some differences like having 3 types of variables, the way you call a variable and how you connect the three files (HTML, CSS and JS) was a challenge at first but it works like if, elif, else, def and random Python and JS functions are similar just written differently so to speak.
