@@ -59,8 +59,8 @@ function playMatch() {
             userhand.style.animation = "shakeUser 2s ease";
             pchand.style.animation = "shakePC 2s ease";
         }
-        /*YOU LOST & YOU WON*/
-        else{if(userpoint > pcpoint){lw0.textContent=`YOU WON`;} else{lw0.textContent=`YOU LOST`;};}
+        /*YOU LOSE & YOU WIN*/
+        else{if(userpoint > pcpoint){lw0.textContent=`YOU WIN`;} else{lw0.textContent=`YOU LOSE`;};}
 });});};
 
 const compareHands = (userchoice, pcchoice) => {

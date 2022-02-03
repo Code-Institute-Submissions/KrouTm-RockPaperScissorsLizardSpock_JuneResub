@@ -31,15 +31,15 @@ SCOREBOARD
 
 HANDS
 
-- The hands I had to draw (I drew on Krita) and I used Google images to help me. I couldn't find images of hands in the formats I wanted with a transparent background to use on the site.
-- If I had more time I would like to improve the appearance of the hands and the site in general as it is very simple in my opinion.
+- The hands I drew on Krita and I used an image from Google to help me. I couldn't find images of hands in the formats I wanted with a transparent background to use on the site.
+- If I had more time I would like to improve the appearance of the hands and the site in general as it's very simple in my opinion.
 
 MAKE YOUR CHOICE:
 
 - This sentence changes after the movements are made, through JavaScript code, the sentence can tell if the user beats or lost to the computer.
-- The phrase is kind of boring, it informs the player in a tedious way, I would like I had thought of a better way to show it to the user. I imagine the player wouldn't find it fun to read phrases like these hahaha. The sentence changes whenever the result is different from the previous one.
+- I admit that the phrase is kind of boring, it informs the player in a tedious way, I would like I had thought a better way to show it to the users. I imagine the player wouldn't find it fun to read phrases like that hahaha. The sentence changes whenever the result is different from the previous one, but it's more like to show knowloge of programing.
 
-YOU LOST & YOU WON
+YOU LOSE & YOU WIN
 
 - It's just a sentence that appears at the end of the game saying if the user won or lost adding up the total points of each one.
 
