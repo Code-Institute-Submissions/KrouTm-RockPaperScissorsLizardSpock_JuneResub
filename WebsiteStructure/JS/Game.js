@@ -22,7 +22,7 @@ const five_= document.getElementById("five");
 const infinity_= document.getElementById("infinity");
 
 /*YOU LOST & YOU WIN*/
-const lw0= document.querySelector(".lw > p")
+const lw0= document.getElementById("lw");
 
 /*Define the number of moves*/
 function choose_n_matches(){
@@ -40,7 +40,7 @@ function playMatch() {
     const pchand = document.querySelector(".pc-hand");
     const hands = document.querySelectorAll(".center-hands img");
     /*Will repeat the animation of hands*/
-    hands.forEach(hand => {hand.addEventListener("animationend", function() {this.style.animation = "";});});
+    hands.forEach(hand => {hand.addEventListener("animationend", function(){this.style.animation = "";});});
     /*Defines number of plays*/
     let mylimit = sessionStorage.getItem('mylimit');
     choices.forEach(choice => {choice.addEventListener("click", function(){
@@ -60,7 +60,7 @@ function playMatch() {
             pchand.style.animation = "shakePC 2s ease";
         }
         /*YOU LOSE & YOU WIN*/
-        else{if(userpoint > pcpoint){lw0.textContent=`YOU WIN`;} else{lw0.textContent=`YOU LOSE`;};}
+        else{if(userpoint > pcpoint){lw0.textContent=`YOU WIN`; lw0.style.color="#FFA500";} else{lw0.textContent=`YOU LOSE`; lw0.style.color="#B81B30";};}
 });});};
 
 const compareHands = (userchoice, pcchoice) => {

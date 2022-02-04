@@ -27,17 +27,17 @@ RESTART
 SCOREBOARD
 
 - The Score Board is just an attempt to mimic the shape of Mickey's head, without much ado. On the left ear is written "User" which should indicate to the user that the left side of the game (Dots on the Board and Mickey's Hands on the left side) belongs to the user and the right side belongs to the PC.
-- As I said, the numbers on the scoreboard were visually pretty monkeys, as long as the number on both sides of the players was at most two digits, plus the numbers were off the board. I could solve this by just giving a point limit like 99, but I thought there was no need for that at the moment.
+- As I said before, if the player plays enough times to have a score of 3 digits or more, the numbers come out of the board.
 
 HANDS
 
-- The hands I drew on Krita and I used an image from Google to help me. I couldn't find images of hands in the formats I wanted with a transparent background to use on the site.
-- If I had more time I would like to improve the appearance of the hands and the site in general as it's very simple in my opinion.
+- The hands I had to draw on Krita and I used Google images to help me. I couldn't find images of hands in the formats I wanted with a transparent background to use on the site.
+- If I had more time I would like to improve the appearance of the hands and the site in general as it is very simple in my opinion.
 
 MAKE YOUR CHOICE:
 
 - This sentence changes after the movements are made, through JavaScript code, the sentence can tell if the user beats or lost to the computer.
-- I admit that the phrase is kind of boring, it informs the player in a tedious way, I would like I had thought a better way to show it to the users. I imagine the player wouldn't find it fun to read phrases like that hahaha. The sentence changes whenever the result is different from the previous one, but it's more like to show knowloge of programing.
+- The phrase is kind of boring, it informs the player in a tedious way, I would like I had thought of a better way to show it to the user. I imagine the player wouldn't find it fun to read phrases like these hahaha. The sentence changes whenever the result is different from the previous one.
 
 YOU LOSE & YOU WIN
 

@@ -36,7 +36,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .center-hands{width:100%; display:flex; justify-content: center;}
 
 /*YOU LOSE & YOU WIN*/
-.style-lw{font-family: 'Bowlby One SC', cursive; padding-top: 10%; color: rgba(184, 27, 48); font-size: 220px; position: absolute; display: flex; justify-content: center; align-items: center; top: 0; right: 0; left: 0; bottom: 0;}
+.style-lw{font-family: 'Bowlby One SC', cursive; font-size: 220px; position: absolute; display: flex; justify-content: center; align-items: center; top: 0; right: 0; left: 0; bottom: 0;}
 
 /*Make your choice:*/
 .choices{width:100%; position:relative; font-size:90px; text-align:center;}
@@ -94,6 +94,8 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .choices{font-size:40px;}
   .style-phrase{font-size:25px;}
   .c{padding: 0 5px;}
+  /*YOU WIN YOU LOSE*/
+  .style-lw{font-size: 40px;}
 }
 /*481px — 768px: iPads, Tablets*/
 @media (min-width:481px) and (max-width:768px){
@@ -120,6 +122,8 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .choices{font-size:50px;}
   .style-phrase{font-size:30px;}
   .c{padding: 0 15px;}
+  /*YOU WIN YOU LOSE*/
+  .style-lw{font-size: 80px;}
 }
 /*769px — 1024px: Small screens, laptops*/
 @media (min-width:769px) and (max-width:1024px){
@@ -136,6 +140,8 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   /*Make your choice:*/
   .choices{font-size:95px;}
   .c{padding: 0 15px;}
+  /*YOU WIN YOU LOSE*/
+  .style-lw{font-size: 140px;}
 }
 /*1025px — 1200px: Desktops, large screens*/
 @media (min-width:1025px) and (max-width:1200px){
@@ -148,5 +154,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .style-matches{font-size: 60px; padding: 30px 0;}
   .set:hover{font-size: 60px;}
   .option{font-size: 50px;}
-  .option:hover{font-size: 60px;} 
+  .option:hover{font-size: 60px;}
+  /*YOU WIN YOU LOSE*/
+  .style-lw{font-size: 180px;}
 }
