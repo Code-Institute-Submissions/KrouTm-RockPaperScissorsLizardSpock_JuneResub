@@ -3,13 +3,21 @@
 
 <> index.html
 
-- All game design was inspired by mickey and his classic colors.
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/mobile.PNG?raw=true)
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/PC.PNG?raw=true)
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/tablet.PNG?raw=true)
+
+All game design was inspired by mickey and his classic colors.
 
 NUMBER OF MACHES
 
 - There are only three options: "Two out of three", "Three out of five" and "To infinity... and beyond!", the first two are easy to understand, the first option is three points on total and the second is five, but the third is "infinite" points, in JavaScript code the limit is 9999 haha, I left this option just for fun, if I were this site for the public, I wouldn't have this option available, as there is no space for three-digit numbers on the game's scoreboard.
 
 <> Game.html
+
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/mobileplay.PNG?raw=true)
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/PCplay.PNG?raw=true)
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/tabletplay.PNG?raw=true)
 
 - I spent a lot of time on this part of the site, in particular, the layout is simple but with integration to be objective.
 - The site is available for screens 320px until larger screens like full HD.
