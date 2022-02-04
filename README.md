@@ -3,9 +3,7 @@
 
 <> index.html
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/mobile.PNG?raw=true)
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/PC.PNG?raw=true)
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/tablet.PNG?raw=true)
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/screenshots.png?raw=true)
 
 All game design was inspired by mickey and his classic colors.
 
@@ -15,9 +13,7 @@ NUMBER OF MACHES
 
 <> Game.html
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/mobileplay.PNG?raw=true)
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/PCplay.PNG?raw=true)
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/tabletplay.PNG?raw=true)
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/screenshots2.png?raw=true)
 
 - I spent a lot of time on this part of the site, in particular, the layout is simple but with integration to be objective.
 - The site is available for screens 320px until larger screens like full HD.
