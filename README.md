@@ -20,30 +20,43 @@ NUMBER OF MACHES
 
 HOME
 
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/home.PNG?raw=true)
+
 - Home to return to index page and hire home screen for home exit, operator can choose home screen and choose other option (number of moves).
 - Before it was only written "Home", but I decided to play the word for an icon (all icons in the game are from Font Awesome), the text of changing the word to an icon was because I wanted it to take up less space on the screen, leaving it like this the cleanest look.
 
 RESTART
+
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/restart.PNG?raw=true)
 
 - As well as the "Home" button, the "Reset" button has also been replaced by an icon, for synchronized replacements.
 - The "Restart" button refreshes the <> Game.html page.
 
 SCOREBOARD
 
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/scoreboard.PNG?raw=true)
+
 - The Score Board is just an attempt to mimic the shape of Mickey's head, without much ado. On the left ear is written "User" which should indicate to the user that the left side of the game (Dots on the Board and Mickey's Hands on the left side) belongs to the user and the right side belongs to the PC.
 - As I said before, if the player plays enough times to have a score of 3 digits or more, the numbers come out of the board.
 
 HANDS
+
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/hands.PNG?raw=true)
 
 - The hands I had to draw on Krita and I used Google images to help me. I couldn't find images of hands in the formats I wanted with a transparent background to use on the site.
 - If I had more time I would like to improve the appearance of the hands and the site in general as it is very simple in my opinion.
 
 MAKE YOUR CHOICE:
 
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/makeyourchoice.PNG?raw=true)
+
 - This sentence changes after the movements are made, through JavaScript code, the sentence can tell if the user beats or lost to the computer.
 - The phrase is kind of boring, it informs the player in a tedious way, I would like I had thought of a better way to show it to the user. I imagine the player wouldn't find it fun to read phrases like these hahaha. The sentence changes whenever the result is different from the previous one.
 
 YOU LOSE & YOU WIN
+
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/lose.PNG?raw=true)
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/win.PNG?raw=true)
 
 - It's just a sentence that appears at the end of the game saying if the user won or lost adding up the total points of each one.
 
