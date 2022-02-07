@@ -39,9 +39,9 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .style-lw{font-family: 'Bowlby One SC', cursive; font-size: 220px; position: absolute; display: flex; justify-content: center; align-items: center; top: 0; right: 0; left: 0; bottom: 0;}
 
 /*Make your choice:*/
-.choices{width:100%; position:relative; font-size:90px; text-align:center;}
+.choices{width:100%; position:relative; text-align:center;}
 .style-phrase{font-size:50px; color:white; text-shadow:0 0 20px black;}
-.c{padding: 0 20px; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; transform:rotateY(180deg); cursor: pointer;}
+.c{margin: 0 20px; font-size:90px; border: 2px black; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; transform:rotateY(180deg); cursor: pointer;}
 .c:hover{color:rgb(29, 27, 32); text-shadow:4px 4px 20px white;}
 
 /*User's hand movement*/
@@ -91,9 +91,8 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   #pc_point{top:-25px; right: -20px;}
   #user_point{top:-25px; left: -20px;}
   /*Make your choice:*/
-  .choices{font-size:40px;}
   .style-phrase{font-size:25px;}
-  .c{padding: 0 5px;}
+  .c{margin: 0 5px; font-size:40px;}
   /*YOU WIN YOU LOSE*/
   .style-lw{font-size: 40px;}
 }
@@ -119,9 +118,8 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   #pc_point{top:-35px; right: -40px;}
   #user_point{top:-35px; left: -40px;}
   /*Make your choice:*/
-  .choices{font-size:50px;}
   .style-phrase{font-size:30px;}
-  .c{padding: 0 15px;}
+  .c{margin: 0 15px; font-size:50px;}
   /*YOU WIN YOU LOSE*/
   .style-lw{font-size: 80px;}
 }
@@ -138,8 +136,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .option{font-size: 40px;}
   .option:hover{font-size: 45px;} 
   /*Make your choice:*/
-  .choices{font-size:95px;}
-  .c{padding: 0 15px;}
+  .c{margin: 0 15px; font-size:95px;}
   /*YOU WIN YOU LOSE*/
   .style-lw{font-size: 140px;}
 }

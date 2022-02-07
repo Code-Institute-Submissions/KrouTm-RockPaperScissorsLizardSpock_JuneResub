@@ -18,7 +18,7 @@ NUMBER OF MACHES
 - I spent a lot of time on this part of the site, in particular, the layout is simple but with integration to be objective.
 - The site is available for screens 320px until larger screens like full HD.
 
-HOUSE
+HOME
 
 - Home to return to index page and hire home screen for home exit, operator can choose home screen and choose other option (number of moves).
 - Before it was only written "Home", but I decided to play the word for an icon (all icons in the game are from Font Awesome), the text of changing the word to an icon was because I wanted it to take up less space on the screen, leaving it like this the cleanest look.

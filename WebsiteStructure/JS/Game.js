@@ -5,7 +5,7 @@ const userpoint_0= document.getElementById("user-0")
 const pcpoint_0= document.getElementById("pc-0")
 
 /*Phrase "Make your choice:"*/
-const result_= document.querySelector(".result > p");
+const phrase= document.getElementById("phrase");
 
 /*Icons (Font Awesome) - Hands in the shape of rock, paper, scissors, lizard, spock*/
 const rock= document.getElementById("Rock");
@@ -69,25 +69,25 @@ const compareHands = (userchoice, pcchoice) => {
         pcpoint++;
         pcpoint_0.innerHTML= pcpoint; 
         /*Sentence to inform the player who won the point*/
-        result_.textContent=`Your ${userchoice} loses to PC's ${pcchoice}.`
+        phrase.textContent=`Your ${userchoice} loses to PC's ${pcchoice}.`
     };
     /*User score update*/
     function updateUser(){
         userpoint++;
         userpoint_0.innerHTML= userpoint;
         /*Sentence to inform the player who won the point*/
-        result_.textContent=`Your ${userchoice} beats PC's ${pcchoice}.`
+        phrase.textContent=`Your ${userchoice} beats PC's ${pcchoice}.`
     };
     /*compare the PC's choice with the user's and update the points*/
-    if(userchoice === pcchoice){result_.textContent="It's a DRAW!";}
+    if(userchoice === pcchoice){phrase.textContent="It's a DRAW!";}
     else if(userchoice === "Rock"){n_matches++;
-        if(pcchoice === "Scissors" || pcchoice === "Lizard"){updateUser();} else{updatePC();}}
+        if(pcchoice === "Scissors" || pcchoice === "Lizard"){updateUser();} else{updatePC(); return;}}
     else if(userchoice === "Paper"){n_matches++;
-        if(pcchoice === "Rock" || pcchoice === "Spock"){updateUser();} else{updatePC();}}
+        if(pcchoice === "Rock" || pcchoice === "Spock"){updateUser();} else{updatePC(); return;}}
     else if(userchoice === "Scissors"){n_matches++;
-        if(pcchoice === "Paper" || pcchoice === "Lizard"){updateUser();} else{updatePC();}}
+        if(pcchoice === "Paper" || pcchoice === "Lizard"){updateUser();} else{updatePC(); return;}}
     else if(userchoice === "Lizard"){n_matches++;
-        if(pcchoice === "Paper" || pcchoice === "Spock"){updateUser();} else{updatePC();}}
+        if(pcchoice === "Paper" || pcchoice === "Spock"){updateUser();} else{updatePC(); return;}}
     else if(userchoice === "Spock"){n_matches++;
-        if(pcchoice === "Scissors" || pcchoice === "Rock"){updateUser();} else{updatePC();}}
+        if(pcchoice === "Scissors" || pcchoice === "Rock"){updateUser();} else{updatePC(); return;}}
 }
