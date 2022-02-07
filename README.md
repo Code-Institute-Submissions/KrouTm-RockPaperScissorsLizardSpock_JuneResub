@@ -70,4 +70,6 @@ BUGS AND SETTINGS
 
 4. Although there is a phrase that states whether the user won or the PC, the phrase only appears if the user clicks on the icons again.
 
-5. When the screen is very wide, the user has to scroll up to see the scoreboard and down to choose a new move.
+5. When the screen is very wide, the user has to scroll up to see the scoreboard and down to choose a new move. This can make the user experience bad.
+
+6. For some reason, when the screen is smaller than 768px the "Make your choice" icons don't work. The hover functions, JS commands and click don't exist and I couldn't solve the problem.

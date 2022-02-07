@@ -31,8 +31,8 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .p-name{justify-content: center; align-items: center;}
 
 /*Hands*/
-.pc-hand{width:45%; margin-left: auto; transform:rotateY(180deg);}
-.user-hand{width:45%; margin-right: auto;}
+.pc-hand{width:50%; margin-left: auto; transform:rotateY(180deg);}
+.user-hand{width:50%; margin-right: auto;}
 .center-hands{width:100%; display:flex; justify-content: center;}
 
 /*YOU LOSE & YOU WIN*/
@@ -41,7 +41,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 /*Make your choice:*/
 .choices{width:100%; position:relative; text-align:center;}
 .style-phrase{font-size:50px; color:white; text-shadow:0 0 20px black;}
-.c{margin: 0 20px; font-size:90px; border: 2px black; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; transform:rotateY(180deg); cursor: pointer;}
+.c{margin: 0 20px; font-size:90px; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; transform:rotateY(180deg); cursor: pointer;}
 .c:hover{color:rgb(29, 27, 32); text-shadow:4px 4px 20px white;}
 
 /*User's hand movement*/
@@ -75,7 +75,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .style-let{font-size: 40px;}
   /*Rock, Paper, Scissors, Lizard and Spock*/
   .style-rps{font-size: 15px;}
-  /*Number of maches*/
+  /*Number of matches*/
   .style-choose{height: 10em; padding: 10px;}
   .style-matches{font-size: 15px; padding: 10px 0;}
   .set:hover{font-size: 17px;}
@@ -102,7 +102,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .style-let{font-size: 50px;}
   /*Rock, Paper, Scissors, Lizard and Spock*/
   .style-rps{font-size: 20px;}
-  /*Number of maches*/
+  /*Number of matches*/
   .style-choose{height: 15em;}
   .style-matches{font-size: 30px; padding: 20px 0;}
   .set:hover{font-size: 30px;}
@@ -129,14 +129,12 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .style-let{font-size: 75px;}
   /*Rock, Paper, Scissors, Lizard and Spock*/
   .style-rps{font-size: 30px;}
-  /*Number of maches*/
+  /*Number of matches*/
   .style-choose{height: 20em;}
   .style-matches{font-size: 45px; padding: 30px 0;}
   .set:hover{font-size: 45px;}
   .option{font-size: 40px;}
   .option:hover{font-size: 45px;} 
-  /*Make your choice:*/
-  .c{margin: 0 15px; font-size:95px;}
   /*YOU WIN YOU LOSE*/
   .style-lw{font-size: 140px;}
 }
@@ -146,7 +144,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .style-let{font-size: 90px;}
   /*Rock, Paper, Scissors, Lizard and Spock*/
   .style-rps{font-size: 40px;}
-  /*Number of maches*/
+  /*Number of matches*/
   .style-choose{height: 25em;}
   .style-matches{font-size: 60px; padding: 30px 0;}
   .set:hover{font-size: 60px;}
