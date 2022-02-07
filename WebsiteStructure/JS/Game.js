@@ -69,14 +69,14 @@ const compareHands = (userchoice, pcchoice) => {
         pcpoint++;
         pcpoint_0.innerHTML= pcpoint; 
         /*Sentence to inform the player who won the point*/
-        phrase.textContent=`Your ${userchoice} loses to PC's ${pcchoice}.`
+        phrase.textContent=`Your ${userchoice} loses to PC's ${pcchoice}.`;
     };
     /*User score update*/
     function updateUser(){
         userpoint++;
         userpoint_0.innerHTML= userpoint;
         /*Sentence to inform the player who won the point*/
-        phrase.textContent=`Your ${userchoice} beats PC's ${pcchoice}.`
+        phrase.textContent=`Your ${userchoice} beats PC's ${pcchoice}.`;
     };
     /*compare the PC's choice with the user's and update the points*/
     if(userchoice === pcchoice){phrase.textContent="It's a DRAW!";}

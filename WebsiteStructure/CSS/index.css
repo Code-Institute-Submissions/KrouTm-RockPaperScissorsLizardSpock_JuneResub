@@ -39,7 +39,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .style-lw{font-family: 'Bowlby One SC', cursive; font-size: 220px; position: absolute; display: flex; justify-content: center; align-items: center; top: 0; right: 0; left: 0; bottom: 0;}
 
 /*Make your choice:*/
-.choices{width:100%; position:relative; text-align:center;}
+.choices{position:relative; text-align:center; z-index: 1;}
 .style-phrase{font-size:50px; color:white; text-shadow:0 0 20px black;}
 .c{margin: 0 20px; font-size:90px; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; transform:rotateY(180deg); cursor: pointer;}
 .c:hover{color:rgb(29, 27, 32); text-shadow:4px 4px 20px white;}
@@ -107,7 +107,7 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
   .style-matches{font-size: 30px; padding: 20px 0;}
   .set:hover{font-size: 30px;}
   .option{font-size: 27px;}
-  .option:hover{font-size: 30px;} 
+  .option:hover{font-size: 30px;}
   /*Home*/
   .home{font-size: 40px;}
   /*Restart*/
