@@ -55,8 +55,7 @@ MAKE YOUR CHOICE:
 
 YOU LOSE & YOU WIN
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/lose.PNG?raw=true)
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/win.PNG?raw=true)
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/lose.PNG?raw=true)![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/win.PNG?raw=true)
 
 - It's just a sentence that appears at the end of the game saying if the user won or lost adding up the total points of each one.
 
