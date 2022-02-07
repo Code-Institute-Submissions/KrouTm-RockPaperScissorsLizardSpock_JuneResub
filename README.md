@@ -71,3 +71,11 @@ BUGS AND SETTINGS
 4. Although there is a phrase that states whether the user won or the PC, the phrase only appears if the user clicks on the icons again.
 
 5. When the screen is very wide, the user has to scroll up to see the scoreboard and down to choose a new move. This can make the user experience bad.
+
+SOUCE
+
+- SCREEN SIZES - I used https://bluetree.ai/screenfly/ to test the responsiveness and functionality of my website.
+- LETTER FONTS - I used the website https://fonts.google.com/ to look for the ideal font for my website.
+- HANDS IMG - I drew in Krita program.
+- CODE - I took inspiration from this developer's code https://github.com/developedbyed/rock-paper-scissor to improve mine.
+- ICONS - All icons come from https://fontawesome.com/.
