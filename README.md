@@ -55,7 +55,8 @@ MAKE YOUR CHOICE:
 
 YOU LOSE & YOU WIN
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/lose.PNG?raw=true)![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/win.PNG?raw=true)
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/lose.PNG?raw=true)
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/win.PNG?raw=true)
 
 - It's just a sentence that appears at the end of the game saying if the user won or lost adding up the total points of each one.
 
@@ -69,4 +70,4 @@ BUGS AND SETTINGS
 
 4. Although there is a phrase that states whether the user won or the PC, the phrase only appears if the user clicks on the icons again.
 
-5. These were the main errors I have at the moment (besides the appearance of the site that could be infinitely better), but with the basic knowledge I already have in Python, I didn't have great difficulties in understanding and writing the code. JS has some differences like having 3 types of variables, the way you call a variable and how you connect the three files (HTML, CSS and JS) was a challenge at first but it works like if, elif, else, def and random Python and JS functions are similar just written differently so to speak.
+5. When the screen is very wide, the user has to scroll up to see the scoreboard and down to choose a new move.
