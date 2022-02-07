@@ -50,7 +50,7 @@ MAKE YOUR CHOICE:
 
 ![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/makeyourchoice.PNG?raw=true)
 
-- This sentence changes after the movements are made, through JavaScript code, the sentence can tell if the user beats or lost to the computer.
+- This sentence changes after the movements are made, through JavaScript code, the sentence shows if the user won or lost to the computer.
 - The phrase is kind of boring, it informs the player in a tedious way, I would like I had thought of a better way to show it to the user. I imagine the player wouldn't find it fun to read phrases like these hahaha. The sentence changes whenever the result is different from the previous one.
 
 YOU LOSE & YOU WIN
@@ -66,16 +66,16 @@ BUGS AND SETTINGS
 
 2. The second problem which is not necessarily a bug or bug, but something that could be improved, is the phrase "Make your choice:", I would like to add something that the user doesn't need to read.
 
-3. If the user presses the button (Font Awesome icons) many times and too fast consecutively, the points or the hand animation would not work as they should, some points will not be added for not having had "time enough", then the user will not know why the PC or the user himself earned points, the code waits for all the animation to be done to show the points and I didn't write any way to prevent the user from pressing the button like that.
+3. If the user presses the button (Font Awesome icons) many times and too fast consecutively, the points or the hand animation would not work as they should, some points will not be added for not having had "time enough", then the user will not know why the PC or the user himself earned points, the code waits for all the animation to be done to show the points and I didn't write anyway to prevent the user from pressing the button like that.
 
 4. Although there is a phrase that states whether the user won or the PC, the phrase only appears if the user clicks on the icons again.
 
 5. When the screen is very wide, the user has to scroll up to see the scoreboard and down to choose a new move. This can make the user experience bad.
 
-SOUCE
+SOURCE
 
 - SCREEN SIZES - I used https://bluetree.ai/screenfly/ to test the responsiveness and functionality of my website.
 - LETTER FONTS - I used the website https://fonts.google.com/ to look for the ideal font for my website.
-- HANDS IMG - I drew in Krita program.
+- HANDS IMG - I drew in Krita software.
 - CODE - I took inspiration from this developer's code https://github.com/developedbyed/rock-paper-scissor to improve mine.
 - ICONS - All icons come from https://fontawesome.com/.
