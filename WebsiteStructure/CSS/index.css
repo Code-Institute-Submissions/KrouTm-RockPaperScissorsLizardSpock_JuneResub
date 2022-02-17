@@ -1,14 +1,14 @@
-body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color:white;}
+body{font-family:'Orbitron', sans-serif; color:white; background-image: url(https://wallpaperaccess.com/full/857915.jpg);}
 *{text-decoration:none; font-family:'Orbitron', sans-serif;}
 
+.back{font-weight: bolder;}
 /*Let's play the game*/
-.style-let{font-weight:bold; font-size: 130px; text-shadow:0 0 20px black;}
-
+.style-let{font-weight:bold; font-size: 130px; color: rgb(29, 27, 32); text-shadow:0px 0px 20px white;}
 /*Rock, Paper, Scissors, Lizard and Spock*/
-.style-rps{font-size:60px; text-shadow:0 0 20px orange;}
+.style-rps{font-size:60px;  color: orange;}
 
 /*Number of maches*/
-.style-choose{padding: 20px; margin:auto; width:90%; height: 35em; border-radius:30px; border:dashed rgb(255, 255, 255); box-shadow:0 0 40px black; text-align:center; background-color:rgb(29, 27, 32);}
+.style-choose{padding: 20px; margin:auto; width:90%; height: 35em; border-radius:30px; border:dashed rgb(255, 255, 255); box-shadow:0 0 40px black; text-align:center; background-color: rgba(29, 27, 32, 0.8);}
 .style-matches{font-size:65px; padding: 60px 0;}
 .option{font-size:65px; color:rgba(184, 27, 48); transition: all .2s;}
 .option:hover{font-size:75px; color:white;}
@@ -24,24 +24,28 @@ body{font-family:'Orbitron', sans-serif; background-color:rgb(88, 85, 94); color
 .restart:hover{text-shadow: 0 0 30px rgb(29, 27, 32); color:white;}
 
 /*Score board*/
-.board{box-shadow:0 0 40px rgb(29, 27, 32); border-radius:50%; background-color:rgb(29, 27, 32); width:280px; margin:auto; position: relative; font-size: 100px; text-align: center; padding: 80px; margin-top:-1.5%;}
+.board{box-shadow:0 0 40px rgb(29, 27, 32); border-radius:50%; background-color:rgb(29, 27, 32); width:300px; margin:auto; position: relative; font-size: 100px; text-align: center; padding: 60px; margin-top:-1.5%;}
 .s-name{background-color:rgb(29, 27, 32); box-shadow:0 0 15px rgb(29, 27, 32); border-radius:50%; font-size: 35px; width: 120px; height: 120px;}
 #pc_point{position: absolute; top:-30px; right: -50px;}
 #user_point{position: absolute; top:-30px; left: -50px;}
 .p-name{justify-content: center; align-items: center;}
 
 /*Hands*/
-.pc-hand{width:50%; margin-left: auto; transform:rotateY(180deg);}
-.user-hand{width:50%; margin-right: auto;}
+.pc-hand{width:45%; margin-left: auto; transform:rotateY(180deg);}
+.user-hand{width:45%; margin-right: auto;}
 .center-hands{width:100%; display:flex; position: relative; justify-content: center;}
 
 /*YOU LOSE & YOU WIN*/
 .style-lw{font-family: 'Bowlby One SC', cursive; z-index: 1; font-size: 220px; position: absolute; margin: auto;}
 
-/*Make your choice:*/
-.choices{position:relative; text-align:center; z-index: 2;}
-.style-phrase{font-size:50px; color:white; text-shadow:0 0 20px black;}
-.c{margin: 0 20px; font-size:90px; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; transform:rotateY(180deg); cursor: pointer;}
+/*Phrase*/
+.style-phrase{font-size:50px; color:white; text-shadow:0 0 20px black; text-align: center;}
+
+/*Choices*/
+.choices{position:fixed; display: flex; z-index: 2; height: 100%; width: 0; top: 0; left: 0; bottom: 0;}
+.p-icons{top: 0; bottom: 0; margin: auto; margin-top: 12vh;}
+.style-make{font-size: 30px; text-align: center; }
+.c{padding: 10px; font-size:90px; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; cursor: pointer;}
 .c:hover{color:rgb(29, 27, 32); text-shadow:4px 4px 20px white;}
 
 /*User's hand movement*/
