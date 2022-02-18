@@ -43,7 +43,7 @@ body{font-family:'Orbitron', sans-serif; color:white; background-image: url(http
 
 /*Choices*/
 .choices{position:fixed; display: flex; z-index: 3; height: 100%; width: 0; top: 0; left: 0; bottom: 0;}
-.p-icons{top: 0; bottom: 0; margin: auto; margin-top: 12vh; background-color: rgba(29, 27, 32, 0.5); border-radius: 30px; border: dashed white; padding: 5px;}
+.p-icons{top: 0; bottom: 0; margin: auto; margin-top: 12vh; background-color: rgba(29, 27, 32, 0.5); border-radius: 20px; border: dashed white; padding: 5px;}
 .c{font-size:80px; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; cursor: pointer; padding: 5px;}
 .c:hover{color:rgb(29, 27, 32); text-shadow:4px 4px 20px white;}
 
