@@ -3,12 +3,12 @@ body{font-family:'Orbitron', sans-serif; color:white; background-image: url(http
 
 .back{font-weight: bolder;}
 /*Let's play the game*/
-.style-let{font-weight:bold; font-size: 130px; color: rgb(29, 27, 32); text-shadow:0px 0px 20px white;}
+.style-let{font-weight:bold; font-size: 130px; color: rgba(184, 27, 48);}
 /*Rock, Paper, Scissors, Lizard and Spock*/
 .style-rps{font-size:60px;  color: orange;}
 
 /*Number of maches*/
-.style-choose{padding: 20px; margin:auto; width:90%; height: 35em; border-radius:30px; border:dashed rgb(255, 255, 255); box-shadow:0 0 40px black; text-align:center; background-color: rgba(29, 27, 32, 0.8);}
+.style-choose{padding: 20px; margin:auto; width:90%; height: 35em; border-radius:30px; border:dashed white; box-shadow:0 0 40px black; text-align:center; background-color: rgba(29, 27, 32, 0.8);}
 .style-matches{font-size:65px; padding: 60px 0;}
 .option{font-size:65px; color:rgba(184, 27, 48); transition: all .2s;}
 .option:hover{font-size:75px; color:white;}
@@ -16,18 +16,18 @@ body{font-family:'Orbitron', sans-serif; color:white; background-image: url(http
 .set:hover{color:orange; font-size:75px; text-shadow:0px 10px 8px rgba(184, 27, 48);}
 
 /*Home*/
-.home{position: relative; font-size: 60px; color:white; text-shadow:2px 2px 5px white; transition:all 0.2s;}
-.home:hover{text-shadow: 0 0 30px rgb(29, 27, 32); color:white;}
+.home{position: relative; font-size: 60px; color:rgba(184, 27, 48); text-shadow:2px 2px 10px white; transition:all 0.5s; padding: 0.5%; z-index: 2;}
+.home:hover{text-shadow: 0 0 30px rgba(184, 27, 48); color:white;}
 
 /*Restart*/
-.restart{position:relative; float: right; font-size: 60px; color:white; text-shadow:2px 2px 5px white; transition:all 0.2s;}
-.restart:hover{text-shadow: 0 0 30px rgb(29, 27, 32); color:white;}
+.restart{position:relative; float: right; font-size: 60px; color:orange; text-shadow:2px 2px 10px white; transition:all 0.5s; padding: 0.5%; z-index: 2;}
+.restart:hover{text-shadow: 0 0 30px orange; color:white;}
 
 /*Score board*/
-.board{box-shadow:0 0 40px rgb(29, 27, 32); border-radius:50%; background-color:rgb(29, 27, 32); width:300px; margin:auto; position: relative; font-size: 100px; text-align: center; padding: 60px; margin-top:-1.5%;}
+.board{box-shadow:0 0 40px rgb(29, 27, 32); border-radius:50%; background-color:rgb(29, 27, 32); width:320px; margin:auto; position: relative; font-size: 100px; text-align: center; padding: 50px; margin-top:-1.5%;}
 .s-name{background-color:rgb(29, 27, 32); box-shadow:0 0 15px rgb(29, 27, 32); border-radius:50%; font-size: 35px; width: 120px; height: 120px;}
-#pc_point{position: absolute; top:-30px; right: -50px;}
-#user_point{position: absolute; top:-30px; left: -50px;}
+#pc_point{position: absolute; top:-40px; right: -55px;}
+#user_point{position: absolute; top:-40px; left: -55px;}
 .p-name{justify-content: center; align-items: center;}
 
 /*Hands*/
@@ -36,16 +36,15 @@ body{font-family:'Orbitron', sans-serif; color:white; background-image: url(http
 .center-hands{width:100%; display:flex; position: relative; justify-content: center;}
 
 /*YOU LOSE & YOU WIN*/
-.style-lw{font-family: 'Bowlby One SC', cursive; z-index: 1; font-size: 220px; position: absolute; margin: auto;}
+.style-lw{font-family: 'Bowlby One SC', cursive; z-index: 2; font-size: 220px; display: flex; position: absolute; margin: auto; top:0; right: 0; left: 0; bottom: 0; justify-content: center; align-items: center;}
 
 /*Phrase*/
-.style-phrase{font-size:50px; color:white; text-shadow:0 0 20px black; text-align: center;}
+.style-phrase{font-size:60px; position: relative; color:white; font-weight: bolder; text-align: center; background-color: rgba(29, 27, 32, 0.5)}
 
 /*Choices*/
-.choices{position:fixed; display: flex; z-index: 2; height: 100%; width: 0; top: 0; left: 0; bottom: 0;}
-.p-icons{top: 0; bottom: 0; margin: auto; margin-top: 12vh;}
-.style-make{font-size: 30px; text-align: center; }
-.c{padding: 10px; font-size:90px; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; cursor: pointer;}
+.choices{position:fixed; display: flex; z-index: 3; height: 100%; width: 0; top: 0; left: 0; bottom: 0;}
+.p-icons{top: 0; bottom: 0; margin: auto; margin-top: 12vh; background-color: rgba(29, 27, 32, 0.5); border-radius: 30px; border: dashed white; padding: 5px;}
+.c{font-size:80px; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; cursor: pointer; padding: 5px;}
 .c:hover{color:rgb(29, 27, 32); text-shadow:4px 4px 20px white;}
 
 /*User's hand movement*/
@@ -90,13 +89,14 @@ body{font-family:'Orbitron', sans-serif; color:white; background-image: url(http
   /*Restart*/
   .restart{font-size: 30px;}
   /*Score board*/
-  .board{width:120px; font-size: 50px; padding: 40px;}
-  .s-name{font-size: 15px; width: 60px; height: 60px;}
-  #pc_point{top:-25px; right: -20px;}
-  #user_point{top:-25px; left: -20px;}
+  .board{width:140px; font-size: 45px; padding: 25px;}
+  .s-name{font-size: 15px; width: 55px; height: 55px;}
+  #pc_point{top:-20px; right: -20px;}
+  #user_point{top:-20px; left: -20px;}
   /*Make your choice:*/
+  .p-icons{padding: 2px;}
   .style-phrase{font-size:25px;}
-  .c{margin: 0 5px; font-size:40px;}
+  .c{margin: 0 5px; font-size:40px; padding: 1px;}
   /*YOU WIN YOU LOSE*/
   .style-lw{font-size: 50px;}
 }
@@ -117,13 +117,14 @@ body{font-family:'Orbitron', sans-serif; color:white; background-image: url(http
   /*Restart*/
   .restart{font-size: 40px;}
   /*Score board*/
-  .board{width:170px; font-size: 70px; padding: 60px;}
-  .s-name{font-size:30px; width: 100px; height: 100px;}
-  #pc_point{top:-35px; right: -40px;}
-  #user_point{top:-35px; left: -40px;}
+  .board{width:230px; font-size: 70px; padding: 40px;}
+  .s-name{font-size:25px; width:90px; height: 90px;}
+  #pc_point{top:-35px; right: -30px;}
+  #user_point{top:-35px; left: -30px;}
   /*Make your choice:*/
+  .p-icons{padding: 2px;}
   .style-phrase{font-size:30px;}
-  .c{margin: 0 15px; font-size:50px;}
+  .c{margin: 0 15px; font-size:50px;padding: 1px;}
   /*YOU WIN YOU LOSE*/
   .style-lw{font-size: 80px;}
 }
@@ -138,7 +139,12 @@ body{font-family:'Orbitron', sans-serif; color:white; background-image: url(http
   .style-matches{font-size: 45px; padding: 30px 0;}
   .set:hover{font-size: 45px;}
   .option{font-size: 40px;}
-  .option:hover{font-size: 45px;} 
+  .option:hover{font-size: 45px;}
+  /*Score board*/
+  .board{width:280px; padding: 50px; font-size: 80px;}
+  .s-name{font-size:30px; width: 110px; height: 110px;}
+  #pc_point{top:-45px; right: -35px;}
+  #user_point{top:-45px; left: -35px;}
   /*YOU WIN YOU LOSE*/
   .style-lw{font-size: 140px;}
 }
