@@ -3,7 +3,7 @@
 
 <> index.html
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/screenshots.png?raw=true)
+![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/screenshots1..png?raw=true)
 
 All game design was inspired by mickey and his classic colors.
 
