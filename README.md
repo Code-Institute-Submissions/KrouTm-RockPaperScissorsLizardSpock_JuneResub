@@ -68,9 +68,7 @@ BUGS AND SETTINGS
 
 3. If the user presses the button (Font Awesome icons) many times and too fast consecutively, the points or the hand animation would not work as they should, some points will not be added for not having had "time enough", then the user will not know why the PC or the user himself earned points, the code waits for all the animation to be done to show the points and I didn't write anyway to prevent the user from pressing the button like that.
 
-4. Although there is a phrase that states whether the user won or the PC, the phrase only appears if the user clicks on the icons again.
-
-5. When the screen is very wide, the user has to scroll up to see the scoreboard and down to choose a new move. This can make the user experience bad.
+4. Although there is a phrase that informs if the user won or the PC, the phrase only appears if the user clicks on the icons again. I tried changing function's local to put +1 on else but none of these options and others worked as the problem is in platMatch(), the function tests the if first and so you need to press the icon again because the else will be true, but I couldn't think of another way to write all the code again. Despite the problem, I chose to have this function.
 
 SOURCE
 
