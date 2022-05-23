@@ -1,51 +1,69 @@
-body{font-family:'Orbitron', sans-serif; color:white; background-image: url(https://wallpaperaccess.com/full/857915.jpg);}
-*{text-decoration:none; font-family:'Orbitron', sans-serif; font-weight: bolder;}
+body{font-family:'Orbitron', sans-serif; background-image: url(https://wallpaperaccess.com/full/857915.jpg);}
+*{text-decoration: none; font-family:'Orbitron', sans-serif; color:white; box-sizing: border-box; border: none; margin: 0; padding: 0; font-size: x-large;}
 
-.back{font-weight: bolder;}
+
 /*Let's play the game*/
-.style-let{font-size: 130px; color: rgba(184, 27, 48);}
+.title h1, i{font-size: 4rem; color: rgba(184, 27, 48);}
 /*Rock, Paper, Scissors, Lizard and Spock*/
-.style-rps{font-size:60px;  color: orange;}
+.title p{font-size: 2rem; color: orange;}
 
 /*Number of maches*/
-.style-choose{padding: 20px; margin:auto; width:90%; height: 35em; border-radius:30px; border:dashed white; box-shadow:0 0 40px black; text-align:center; background-color: rgba(29, 27, 32, 0.8);}
-.style-matches{font-size:65px; padding: 60px 0;}
-.option{font-size:65px; color:rgba(184, 27, 48); transition: all .2s;}
-.option:hover{font-size:75px; color:white;}
-.set{color:rgba(255, 255, 0, 0);}
-.set:hover{color:orange; font-size:75px; text-shadow:0px 10px 8px rgba(184, 27, 48);}
+.p-choose{display: flex; justify-content: center;}
+.choose{padding: 3rem; margin: 2rem; width: 90%; height: 25rem; border-radius: 1rem; border: dashed; box-shadow: 0 0 40px black; text-align: center; background-color: rgba(29, 27, 32, 0.8);}
+.choose h1{font-size: 2.5rem; padding-bottom: 1.5rem 0;}
+.choose a{font-size: 2rem; color:rgba(184, 27, 48); width: 100%; display: inline-table; transition: all .2s;}
+.choose a:hover{font-size: 2.5rem; color: white; text-shadow: 0 0.5rem 1rem rgba(255, 0, 0, 0.7);}
+.choose a i{opacity: 0; font-size: 2.5rem; color: orange; text-shadow: 0 0.5rem 1rem rgba(255, 0, 0, 0.7);}
+.choose a:hover i{opacity: 1;}
 
 /*Home*/
-.home{position: relative; font-size: 60px; color:rgba(184, 27, 48); text-shadow:2px 2px 10px white; transition:all 0.5s; padding: 0.5%; z-index: 4;}
-.home:hover{text-shadow: 0 0 30px rgba(184, 27, 48); color:white;}
+.home i{position: relative; font-size: 4rem; color: rgba(184, 27, 48); text-shadow: 0 0 1rem white; transition:all 0.5s; padding: 0.5%; z-index: 4;}
+.home i:hover{text-shadow: 0 0 1rem rgba(184, 27, 48); color:white;}
 
 /*Restart*/
-.restart{position:relative; float: right; font-size: 60px; color:orange; text-shadow:2px 2px 10px white; transition:all 0.5s; padding: 0.5%; z-index: 4;}
-.restart:hover{text-shadow: 0 0 30px orange; color:white;}
+.restart i{position:relative; float: right; font-size: 4rem; color:orange; text-shadow: 0 0 1rem white; transition:all 0.5s; padding: 0.5%; z-index: 4;}
+.restart i:hover{text-shadow: 0 0 1rem orange; color: white;}
 
 /*Score board*/
-.board{box-shadow:0 0 40px rgb(29, 27, 32); border-radius:50%; background-color:rgb(29, 27, 32); width:320px; margin:auto; position: relative; font-size: 100px; text-align: center; padding: 50px; margin-top:-1.5%;}
-.s-name{background-color:rgb(29, 27, 32); box-shadow:0 0 15px rgb(29, 27, 32); border-radius:50%; font-size: 35px; width: 120px; height: 120px;}
-#pc_point{position: absolute; top:-40px; right: -55px;}
-#user_point{position: absolute; top:-40px; left: -55px;}
-.p-name{justify-content: center; align-items: center;}
+.board{box-shadow: 0 0 1rem rgb(29, 27, 32); border-radius: 50%; background-color: rgb(29, 27, 32); width: 20rem; margin: auto; position: relative; text-align: center; padding: 2rem; margin-top:-1.5%; font-size: 5rem;}
+.board div p{font-size: 1.5rem; display: flex; height: 100%; justify-content: center; align-items: center;}
+.board div{background-color:rgb(29, 27, 32); box-shadow:0 0 15px rgb(29, 27, 32); border-radius: 50%; width: 5rem; height: 5rem;}
+#pc_point{position: absolute; top:-2rem; right: -1.5rem;}
+#user_point{position: absolute; top:-2rem; left: -1.5rem;}
+.board span{font-size: 5rem;}
 
 /*Hands*/
-.user-hand{width:45%; margin-right: auto;}
-.pc-hand{width:45%; margin-left: auto; transform:rotateY(180deg);}
-.center-hands{width:100%; display: flex; position: relative; justify-content: center;}
+.user-hand{width: 35%; margin-right: auto;}
+.pc-hand{width: 35%; margin-left: auto; transform:rotateY(180deg);}
+.center-hands{width: 100%; display: flex; position: relative; justify-content: center;}
 
 /*Phrase*/
-.style-phrase{font-size:60px; position: relative; width: 100%; text-align: center; background-color: rgba(29, 27, 32, 0.5); padding: 5px 0px; display: block;}
+.style-phrase{font-size: 2.5rem; position: relative; width: 100%; text-align: center; background-color: rgba(29, 27, 32, 0.5); padding: 5px 0px; display: block;}
+
+/*Choices*/
+.choices{position: relative; z-index: 3; left: 0; right: 0; display: flex; justify-content: center; background-color: rgba(29, 27, 32, 0.5);}
+.c{color: white; text-shadow: 0 0 1rem rgb(29, 27, 32); font-size: 4.5rem; transition: all 0.5s; cursor: pointer; padding: 1rem 2rem;}
+.c:hover{color:rgb(29, 27, 32); text-shadow: 0 0 1rem white;}
 
 /*YOU LOSE & YOU WIN*/
 .style-lw{font-family: 'Bowlby One SC', cursive; z-index: 2; font-size: 220px; display: flex; position: absolute; margin: auto; top:0; right: 0; left: 0; bottom: 0; justify-content: center; align-items: center;}
 
-/*Choices*/
-.choices{position:absolute; z-index: 3; top: 0; left: 0; bottom: 0; background-color: rgba(150, 25, 25, 0.486); height: 100%;}
-.p-icons{background-color: rgba(29, 27, 32, 0.5); border-radius: 20px; border: dashed white; padding: 5px; position: absolute; margin-top: 15vh;}
-.c{font-size:80px; text-shadow:4px 4px 20px rgb(29, 27, 32); transition:all 0.5s; cursor: pointer; padding: 5px; display:inline-block;}
-.c:hover{color:rgb(29, 27, 32); text-shadow:4px 4px 20px white;}
+/*320px — 480px: Mobile devices*/
+@media (min-width:320px) and (max-width:480px){
+  *{font-size: x-small;}
+}
+/*481px — 768px: iPads, Tablets*/
+@media (min-width:481px) and (max-width:768px){
+  *{font-size: x-small;}
+}
+/*769px — 1024px: Small screens, laptops*/
+@media (min-width:769px) and (max-width:1024px){
+  *{font-size: small;}
+}
+/*1025px — 1200px: Desktops, large screens*/
+@media (min-width:1025px) and (max-width:1200px){
+  *{font-size: medium;}
+}
 
 /*User's hand movement*/
 @keyframes shakeUser {
@@ -70,96 +88,4 @@ body{font-family:'Orbitron', sans-serif; color:white; background-image: url(http
   75%{transform:rotateY(180deg) translateY(0px);}
   85%{transform:rotateY(180deg) translateY(-50px);}
   100%{transform:rotateY(180deg) translateY(0px);}
-}
-
-/*320px — 480px: Mobile devices*/
-@media (min-width:320px) and (max-width:480px){
-  /*Let's play the game*/
-  .style-let{font-size: 40px;}
-  /*Rock, Paper, Scissors, Lizard and Spock*/
-  .style-rps{font-size: 15px;}
-  /*Number of matches*/
-  .style-choose{height: 10em; padding: 10px;}
-  .style-matches{font-size: 15px; padding: 10px 0;}
-  .set:hover{font-size: 17px;}
-  .option{font-size: 14px;}
-  .option:hover{font-size: 17px;}
-  /*Home*/
-  .home{font-size: 30px;}
-  /*Restart*/
-  .restart{font-size: 30px;}
-  /*Score board*/
-  .board{width:140px; font-size: 45px; padding: 25px;}
-  .s-name{font-size: 15px; width: 55px; height: 55px;}
-  #pc_point{top:-20px; right: -20px;}
-  #user_point{top:-20px; left: -20px;}
-  /*Make your choice:*/
-  .p-icons{padding: 2px;}
-  .style-phrase{font-size:25px;}
-  .c{margin: 0 5px; font-size:40px; padding: 1px;}
-  /*YOU WIN YOU LOSE*/
-  .style-lw{font-size: 50px;}
-}
-/*481px — 768px: iPads, Tablets*/
-@media (min-width:481px) and (max-width:768px){
-  /*Let's play the game*/
-  .style-let{font-size: 50px;}
-  /*Rock, Paper, Scissors, Lizard and Spock*/
-  .style-rps{font-size: 20px;}
-  /*Number of matches*/
-  .style-choose{height: 15em;}
-  .style-matches{font-size: 30px; padding: 20px 0;}
-  .set:hover{font-size: 30px;}
-  .option{font-size: 27px;}
-  .option:hover{font-size: 30px;}
-  /*Home*/
-  .home{font-size: 40px;}
-  /*Restart*/
-  .restart{font-size: 40px;}
-  /*Score board*/
-  .board{width:230px; font-size: 70px; padding: 40px;}
-  .s-name{font-size:25px; width:90px; height: 90px;}
-  #pc_point{top:-35px; right: -30px;}
-  #user_point{top:-35px; left: -30px;}
-  /*Make your choice:*/
-  .p-icons{padding: 2px;}
-  .style-phrase{font-size:30px;}
-  .c{margin: 0 15px; font-size:50px;padding: 1px;}
-  /*YOU WIN YOU LOSE*/
-  .style-lw{font-size: 80px;}
-}
-/*769px — 1024px: Small screens, laptops*/
-@media (min-width:769px) and (max-width:1024px){
-  /*Let's play the game*/
-  .style-let{font-size: 75px;}
-  /*Rock, Paper, Scissors, Lizard and Spock*/
-  .style-rps{font-size: 30px;}
-  /*Number of matches*/
-  .style-choose{height: 20em;}
-  .style-matches{font-size: 45px; padding: 30px 0;}
-  .set:hover{font-size: 45px;}
-  .option{font-size: 40px;}
-  .option:hover{font-size: 45px;}
-  /*Score board*/
-  .board{width:280px; padding: 50px; font-size: 80px;}
-  .s-name{font-size:30px; width: 110px; height: 110px;}
-  #pc_point{top:-45px; right: -35px;}
-  #user_point{top:-45px; left: -35px;}
-  /*YOU WIN YOU LOSE*/
-  .style-lw{font-size: 140px;}
-}
-/*1025px — 1200px: Desktops, large screens*/
-@media (min-width:1025px) and (max-width:1200px){
-  /*Let's play the game*/
-  .style-let{font-size: 90px;}
-  /*Rock, Paper, Scissors, Lizard and Spock*/
-  .style-rps{font-size: 40px;}
-  /*Number of matches*/
-  .style-choose{height: 25em;}
-  .style-matches{font-size: 60px; padding: 30px 0;}
-  .set:hover{font-size: 60px;}
-  .option{font-size: 50px;}
-  .option:hover{font-size: 60px;}
-  /*YOU WIN YOU LOSE*/
-  .style-lw{font-size: 180px;}
 }
