@@ -95,7 +95,7 @@ The game design was inspired by mickey and his classic colors.
         - On the left ear is written "User" which should indicate to the user that the left side of the game (Dots on the Board and Mickey's Hands on the left side) belongs to the user and the right side belongs to the PC.
 
     - ### Hands
-        <img src="screenshots/Hands.png">
+        <img src="screenshots/Hands.PNG">
 
         - The hands I draw on Krita. I couldn't find images of hands in the formats I wanted with a transparent background to use on the site.
 
@@ -106,8 +106,8 @@ The game design was inspired by mickey and his classic colors.
         - The phrase is kind of boring, it informs the player in a tedious way, I would like I had thought of a better way to show it to the user. I imagine the player wouldn't find it fun to read phrases like these hahaha. The sentence changes whenever the result is different from the previous one.
 
     - ### You Lose You Win
-        <img src="screenshots/Lose.png">
-        <img src="screenshots/Win.png">
+        <img src="screenshots/Lose.PNG">
+        <img src="screenshots/Win.PNG">
 
         - It's just a sentence that appears at the end of the game saying if the user won or lost adding up the total points of each one.
 
