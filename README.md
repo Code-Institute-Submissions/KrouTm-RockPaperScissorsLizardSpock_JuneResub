@@ -106,7 +106,8 @@ The game design was inspired by mickey and his classic colors.
         - The phrase is kind of boring, it informs the player in a tedious way, I would like I had thought of a better way to show it to the user. I imagine the player wouldn't find it fun to read phrases like these hahaha. The sentence changes whenever the result is different from the previous one.
 
     - ### You Lose You Win
-        <img src="screenshots/Lose Win.png">
+        <img src="screenshots/Lose.png">
+        <img src="screenshots/Win.png">
 
         - It's just a sentence that appears at the end of the game saying if the user won or lost adding up the total points of each one.
 
