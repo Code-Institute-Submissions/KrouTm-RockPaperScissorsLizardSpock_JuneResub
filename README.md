@@ -3,7 +3,7 @@
 The game design was inspired by mickey and his classic colors.
 
 [View the live project here.](https://kroutm.github.io/RockPaperScissorsLizardSpock/)
-<p align="center"><img src="screenshots/Responsive/FireShot Capture 018 - Am I Responsive_ - ui.dev.png"></p>
+<p align="center"><img src="screenshots/FireShot Capture 074 - Am I Responsive_ - ui.dev.png"></p>
 
 ## User Experience (UX)
 
@@ -63,7 +63,7 @@ The game design was inspired by mickey and his classic colors.
 - The website is responsive on all device sizes.
 
     ### Index Page
-    <p align="center"><img src="screenshots/Responsive/FireShot Capture 018 - Am I Responsive_ - ui.dev.png"></p>
+    <p align="center"><img src="screenshots/FireShot Capture 074 - Am I Responsive_ - ui.dev.png"></p>
 
     - ### Choose the number of maches
         <img src="screenshots/Number of maches.PNG">
@@ -74,7 +74,7 @@ The game design was inspired by mickey and his classic colors.
     ### Game Page
     - The layout is simple but with the intention of being objective.
 
-    <p align="center"><img src="screenshots/Responsive/FireShot Capture 021 - Am I Responsive_ - ui.dev.png"></p>
+    <p align="center"><img src="screenshots/FireShot Capture 073 - Am I Responsive_ - ui.dev.png"></p>
 
     - ### Link Home
         <img src="screenshots/Home.png">
