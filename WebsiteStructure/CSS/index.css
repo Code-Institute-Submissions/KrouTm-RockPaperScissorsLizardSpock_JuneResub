@@ -8,7 +8,7 @@ body{font-family:'Orbitron', sans-serif; background-image: url(https://wallpaper
 
 /*Number of maches*/
 .p-choose{display: flex; justify-content: center;}
-.choose{padding: 3rem; margin: 2rem; width: 90%; height: 100%; border-radius: 1rem; border: dashed; box-shadow: 0 0 40px black; text-align: center; background-color: rgba(29, 27, 32, 0.8);}
+.choose{padding: 3rem; margin: 3rem; width: 100%; height: 100%; border-radius: 1rem; border: dashed; box-shadow: 0 0 40px black; text-align: center; background-color: rgba(29, 27, 32, 0.8);}
 .choose h1{font-size: 2.5rem; padding-bottom: 1.5rem 0;}
 .choose a{font-size: 2rem; color:rgba(184, 27, 48); width: 100%; display: inline-table; transition: all .2s;}
 .choose a:hover{font-size: 2.5rem; color: white; text-shadow: 0 0.5rem 1rem rgba(255, 0, 0, 0.7);}
@@ -50,10 +50,12 @@ body{font-family:'Orbitron', sans-serif; background-image: url(https://wallpaper
 /*320px — 480px: Mobile devices*/
 @media (min-width:320px) and (max-width:480px){
   *{font-size: xx-small;}
+  .choose{padding: 1rem; margin: 1rem;}
+  .c{padding: 0.5rem 1rem;}
 }
 /*481px — 768px: iPads, Tablets*/
 @media (min-width:481px) and (max-width:768px){
-  *{font-size: x-small;}
+  *{font-size: xx-small;}
 }
 /*769px — 1024px: Small screens, laptops*/
 @media (min-width:769px) and (max-width:1024px){
@@ -61,7 +63,7 @@ body{font-family:'Orbitron', sans-serif; background-image: url(https://wallpaper
 }
 /*1025px — 1200px: Desktops, large screens*/
 @media (min-width:1025px) and (max-width:1200px){
-  *{font-size: medium;}
+  *{font-size: small;}
 }
 
 /*User's hand movement*/
