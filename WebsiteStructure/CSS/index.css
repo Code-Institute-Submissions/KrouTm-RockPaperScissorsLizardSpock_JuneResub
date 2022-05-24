@@ -1,4 +1,4 @@
-body{font-family:'Orbitron', sans-serif; background-image: url(https://wallpaperaccess.com/full/857915.jpg); background-size: cover; background-position: center;}
+body{background-image: url(https://wallpaperaccess.com/full/857915.jpg); background-size: cover; background-position: center;}
 *{text-decoration: none; font-family:'Orbitron', sans-serif; color:white; box-sizing: border-box; border: none; margin: 0; padding: 0; font-size: x-large;}
 
 /*Let's play the game*/
@@ -12,7 +12,7 @@ body{font-family:'Orbitron', sans-serif; background-image: url(https://wallpaper
 .choose h1{font-size: 2.5rem; padding-bottom: 1.5rem 0;}
 .choose a{font-size: 2rem; color:rgba(184, 27, 48); width: 100%; display: inline-table; transition: all .2s;}
 .choose a:hover{font-size: 2.5rem; color: white; text-shadow: 0 0.5rem 1rem rgba(255, 0, 0, 0.7);}
-.choose a i{opacity: 0; padding: 0.5rem; color: orange; text-shadow: 0 0.5rem 1rem rgba(255, 0, 0, 0.7);}
+.choose a i{opacity: 0; padding: 0.25rem; color: orange; text-shadow: 0 0.5rem 1rem rgba(255, 0, 0, 0.7);}
 .choose a:hover i{opacity: 1;}
 
 /*Home*/
@@ -24,7 +24,7 @@ body{font-family:'Orbitron', sans-serif; background-image: url(https://wallpaper
 .restart i:hover{text-shadow: 0 0 1rem orange; color: white;}
 
 /*Score board*/
-.board{box-shadow: 0 0 1rem rgb(29, 27, 32); border-radius: 50%; background-color: rgb(29, 27, 32); width: 20rem; margin: auto; position: relative; text-align: center; padding: 2rem; margin-top:-1.5%; font-size: 4rem;}
+.board{box-shadow: 0 0 1rem rgb(29, 27, 32); border-radius: 50%; background-color: rgb(29, 27, 32); width: fit-content; min-width: 13rem; margin: auto; position: relative; text-align: center; padding: 2rem; margin-top:-1.5%; font-size: 4rem;}
 .board div p{font-size: 1.5rem; display: flex; height: 100%; justify-content: center; align-items: center;}
 .board div{background-color:rgb(29, 27, 32); box-shadow:0 0 15px rgb(29, 27, 32); border-radius: 50%; width: 5rem; height: 5rem;}
 #pc_point{position: absolute; top:-2rem; right: -1.5rem;}
@@ -51,11 +51,17 @@ body{font-family:'Orbitron', sans-serif; background-image: url(https://wallpaper
 @media (min-width:320px) and (max-width:480px){
   *{font-size: xx-small;}
   .choose{padding: 1rem; margin: 1rem;}
+  .choose a{font-size: 1.5rem;}
+  .choose a:hover{font-size: 2rem;}
   .c{padding: 0.5rem 1rem;}
+  .user-hand{width: 45%;}
+  .pc-hand{width: 45%;}
 }
 /*481px — 768px: iPads, Tablets*/
 @media (min-width:481px) and (max-width:768px){
   *{font-size: xx-small;}
+  .user-hand{width: 45%;}
+  .pc-hand{width: 45%;}
 }
 /*769px — 1024px: Small screens, laptops*/
 @media (min-width:769px) and (max-width:1024px){

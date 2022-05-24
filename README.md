@@ -1,66 +1,122 @@
-# RockPaperScissorsLizardSpock
- RockPaperScissorsLizardSpock Project
+# Rock, Paper, Scissors, Lizard and Spock
 
-<> index.html
+The game design was inspired by mickey and his classic colors.
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/screenshots1..png?raw=true)
+[View the live project here.](https://kroutm.github.io/RockPaperScissorsLizardSpock/)
+<p align="center"><img src="screenshots/Responsive/FireShot Capture 018 - Am I Responsive_ - ui.dev.png"></p>
 
-All game design was inspired by mickey and his classic colors.
+## User Experience (UX)
 
-NUMBER OF MACHES
+-   ### User stories
 
-- There are only three options: "Two out of three", "Three out of five" and "To infinity... and beyond!", the first two are easy to understand, the first option is three points on total and the second is five, but the third is "infinite" points, in JavaScript code the limit is 9999 haha, I left this option just for fun, if I were this site for the public, I wouldn't have this option available, as there is no space for three-digit numbers on the game's scoreboard.
+    1. As a User, I want to immediately understand the intent of the site.
+    2. As a User, I want to have play options.
+    3. As a User, I want to view and navigate the website on all devices.
+    4. As a User, I want to restart the game in a simple way.
+    5. As a User, I want to see movement and interaction with the elements.
+    6. As a User, I want to be able to choose another game option whenever I want.
+    7. As a User, I want to feel stability and constancy in the changes.
+    8. As a User, I want to see a scoreboard marking the points of the plays.
+    9. As a User, I want to be informed that you won the match.
 
-<> Game.html
+## Technologies used
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/screenshots2.png?raw=true)
+### Languages Used
 
-- I spent a lot of time on this part of the site, in particular, the layout is simple but with integration to be objective.
-- The site is available for screens 320px until larger screens like full HD.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
-HOME
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/home.PNG?raw=true)
+- [javaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-- Home to return to index page and hire home screen for home exit, operator can choose home screen and choose other option (number of moves).
-- Before it was only written "Home", but I decided to play the word for an icon (all icons in the game are from Font Awesome), the text of changing the word to an icon was because I wanted it to take up less space on the screen, leaving it like this the cleanest look.
+### Frameworks Libraries and Programs
 
-RESTART
+1. [Google Fonts](https://fonts.google.com/)
+    - Google fonts were used to import the 'Bowlby One SC' and 'Orbitron' fonts into the index.css file which is used on all pages throughout the project.
+1. [Font Awesome](https://fontawesome.com/)
+    - I used the icons for decoration and game pick options (the hands rock, paper, scissors, lizard and spock).
+1. [Github](https://github.com/)
+    - Github was used to create and store the project repository.
+1. [Visual Studio Code](https://code.visualstudio.com/)
+    - Visual Studio Code was used to create my files and code the project.
+1. [Am I responsive](http://ami.responsivedesign.is/)
+    - Am I responsive was used to taking screenshots of the page at different screen sizes.
+1. [BlueTree](https://bluetree.ai/screenfly/)
+    - I used BlueTree to test the responsiveness and functionality of my website.
+1. [Coolors](https://coolors.co/)
+    - To get the website colors.
+1. [Krita](https://krita.org/en/)
+    - To draw Mickey's hands
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/restart.PNG?raw=true)
+-   ### Design
+    -   #### Colour Scheme
+        -   The colors used on this website were:
+        <img src="screenshots/Mickey.png">
 
-- As well as the "Home" button, the "Reset" button has also been replaced by an icon, for synchronized replacements.
-- The "Restart" button refreshes the <> Game.html page.
+    -   #### Typography Bebas Neue
+        -   Bowlby One SC was used for the titles and Orbitron was used for the "You Win and You Lose".
 
-SCOREBOARD
+    -   #### Imagery
+        -   Mickey's two hands were drawn in Krita by myself.
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/scoreboard.PNG?raw=true)
+## Features
+- The website is responsive on all device sizes.
 
-- The Score Board is just an attempt to mimic the shape of Mickey's head, without much ado. On the left ear is written "User" which should indicate to the user that the left side of the game (Dots on the Board and Mickey's Hands on the left side) belongs to the user and the right side belongs to the PC.
-- As I said before, if the player plays enough times to have a score of 3 digits or more, the numbers come out of the board.
+    ### Index Page
+    <p align="center"><img src="screenshots/Responsive/FireShot Capture 018 - Am I Responsive_ - ui.dev.png"></p>
 
-HANDS
+    - ### Choose the number of maches
+        <img src="screenshots/Number of maches.PNG">
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/hands.PNG?raw=true)
+        - There are only three options: "Two out of three", "Three out of five" and "To infinity... and beyond!"
+        - The first two are easy to understand, the first option is three plays on total and the second is five, but the third is "infinite" plays, in JavaScript code the limit is 9999, I left this option just for fun and testing.
 
-- The hands I had to draw on Krita and I used Google images to help me. I couldn't find images of hands in the formats I wanted with a transparent background to use on the site.
-- If I had more time I would like to improve the appearance of the hands and the site in general as it is very simple in my opinion.
+    ### Game Page
+    - The layout is simple but with the intention of being objective.
 
-MAKE YOUR CHOICE:
+    <p align="center"><img src="screenshots/Responsive/FireShot Capture 021 - Am I Responsive_ - ui.dev.png"></p>
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/makeyourchoice.PNG?raw=true)
+    - ### Link Home
+        <img src="screenshots/Home.png">
 
-- This sentence changes after the movements are made, through JavaScript code, the sentence shows if the user won or lost to the computer.
-- The phrase is kind of boring, it informs the player in a tedious way, I would like I had thought of a better way to show it to the user. I imagine the player wouldn't find it fun to read phrases like these hahaha. The sentence changes whenever the result is different from the previous one.
+        - To return to index page and the user can choose another option (number of maches).
+        - Before it was written as "Home", but I decided to remove the word and change to an icon, because I wanted it to take up less space on the screen, leaving it like this the cleanest look.
 
-YOU LOSE & YOU WIN
+    - ### Link Restart
+        <img src="screenshots/Restart.png">
 
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/lose.PNG?raw=true)
-![alt text](https://github.com/KrouTm/RockPaperScissorsLizardSpock/blob/main/screenshots/win.PNG?raw=true)
+        - As well as the "Home" button, the "Reset" button has also been replaced to an icon.
+        - The "Restart" button refreshes the <>Game.html page.
 
-- It's just a sentence that appears at the end of the game saying if the user won or lost adding up the total points of each one.
+    - ### Score Board
+        <img src="screenshots/Score Board.png">
 
-BUGS AND SETTINGS
+        - The Score Board is just an attempt to mimic the shape of Mickey's head.
+        - On the left ear is written "User" which should indicate to the user that the left side of the game (Dots on the Board and Mickey's Hands on the left side) belongs to the user and the right side belongs to the PC.
+
+    - ### Hands
+        <img src="screenshots/Hands.png">
+
+        - The hands I draw on Krita. I couldn't find images of hands in the formats I wanted with a transparent background to use on the site.
+
+    - ### Make your choice:
+        <img src="screenshots/Make your choice.png">
+
+        - This sentence changes after the movements are made, through JavaScript code, the sentence shows if the user won or lost to the computer.
+        - The phrase is kind of boring, it informs the player in a tedious way, I would like I had thought of a better way to show it to the user. I imagine the player wouldn't find it fun to read phrases like these hahaha. The sentence changes whenever the result is different from the previous one.
+
+    - ### You Lose You Win
+        <img src="screenshots/Lose Win.png">
+
+        - It's just a sentence that appears at the end of the game saying if the user won or lost adding up the total points of each one.
+
+## Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- [Markup Validation Service](https://validator.w3.org/)
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+## BUGS AND SETTINGS
 
 1. The first bug as I mentioned above, is the infinite points option, I hope you understand that I could have written a more rational option, but I didn't think it was necessary and decided to keep it. It was easier to test my codes with this option available.
 
@@ -70,10 +126,7 @@ BUGS AND SETTINGS
 
 4. Although there is a phrase that informs if the user won or the PC, the phrase only appears if the user clicks on the icons again. I tried changing function's local to put +1 on else but none of these options and others worked as the problem is in platMatch(), the function tests the if first and so you need to press the icon again because the else will be true, but I couldn't think of another way to write all the code again. Despite the problem, I chose to have this function.
 
-SOURCE
+## Credits
 
-- SCREEN SIZES - I used https://bluetree.ai/screenfly/ to test the responsiveness and functionality of my website.
-- LETTER FONTS - I used the website https://fonts.google.com/ to look for the ideal font for my website.
-- HANDS IMG - I drew in Krita software.
-- CODE - I took inspiration from this developer's code https://github.com/developedbyed/rock-paper-scissor to improve mine.
-- ICONS - All icons come from https://fontawesome.com/.
+[Code](https://github.com/developedbyed/rock-paper-scissor)
++ I took inspiration from this developer's code.
