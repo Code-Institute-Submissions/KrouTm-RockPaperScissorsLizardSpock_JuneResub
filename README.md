@@ -119,11 +119,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## BUGS AND SETTINGS
 
-1. The first bug as I mentioned above, is the infinite points option, I hope you understand that I could have written a more rational option, but I didn't think it was necessary and decided to keep it. It was easier to test my codes with this option available.
+1. The first bug as I mentioned above, is the infinite points option, I could have written a more rational option, but I didn't think it was necessary and decided to keep it. It was easier to test my codes with this option available.
 
-2. The second problem which is not necessarily a bug or bug, but something that could be improved, is the phrase "Make your choice:", I would like to add something that the user doesn't need to read.
+2. The second problem which is not necessarily a bug, but something that could be improved, is the phrase "Make your choice:", I would like to add something that the user doesn't need to read.
 
-3. If the user presses the button (Font Awesome icons) many times and too fast consecutively, the points or the hand animation would not work as they should, some points will not be added for not having had "time enough", then the user will not know why the PC or the user himself earned points, the code waits for all the animation to be done to show the points and I didn't write anyway to prevent the user from pressing the button like that.
+3. If the user presses the options (rock, paper, scissors, lizard and spock icons) many times and too fast consecutively, the points or the hand animation would not work as they should, some points will not be added for not having had "time enough", then the user will not know why the PC or the user himself earned points, the code waits for all the animation to be done to show the points and I didn't write anyway to prevent the user from pressing the button like that.
 
 4. Although there is a phrase that informs if the user won or the PC, the phrase only appears if the user clicks on the icons again. I tried changing function's local to put +1 on else but none of these options and others worked as the problem is in platMatch(), the function tests the if first and so you need to press the icon again because the else will be true, but I couldn't think of another way to write all the code again. Despite the problem, I chose to have this function.
 
