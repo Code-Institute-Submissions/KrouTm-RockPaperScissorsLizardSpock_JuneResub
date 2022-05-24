@@ -1,4 +1,4 @@
-body{font-family:'Orbitron', sans-serif; background-image: url(https://wallpaperaccess.com/full/857915.jpg);}
+body{font-family:'Orbitron', sans-serif; background-image: url(https://wallpaperaccess.com/full/857915.jpg); background-size: cover; background-position: center;}
 *{text-decoration: none; font-family:'Orbitron', sans-serif; color:white; box-sizing: border-box; border: none; margin: 0; padding: 0; font-size: x-large;}
 
 /*Let's play the game*/
@@ -37,7 +37,7 @@ body{font-family:'Orbitron', sans-serif; background-image: url(https://wallpaper
 .center-hands{width: 100%; display: flex; position: relative; justify-content: center;}
 
 /*Phrase*/
-.style-phrase{font-size: 2.5rem; position: relative; width: 100%; text-align: center; background-color: rgba(29, 27, 32, 0.5); padding: 5px 0px; display: block;}
+.style-phrase{font-size: 2.5rem; position: relative; width: 100%; font-weight: bolder; text-align: center; color: rgb(29, 27, 32); background-color: rgba(255, 255, 255, 0.5); padding: 5px 0px; display: block;}
 
 /*Choices*/
 .choices{position: relative; z-index: 3; left: 0; right: 0; display: flex; justify-content: center; background-color: rgba(29, 27, 32, 0.5);}
