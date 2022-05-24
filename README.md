@@ -78,11 +78,13 @@ The game design was inspired by mickey and his classic colors.
 
     - ### Link Home
     <img src="screenshots/Home.png">
+    
     - To return to index page and the user can choose another option (number of maches).
     - Before it was written as "Home", but I decided to remove the word and change to an icon, because I wanted it to take up less space on the screen, leaving it like this the cleanest look.
 
     - ### Link Restart
     <img src="screenshots/Restart.png">
+
     - As well as the "Home" button, the "Reset" button has also been replaced to an icon.
     - The "Restart" button refreshes the <>Game.html page.
 
