@@ -77,13 +77,13 @@ The game design was inspired by mickey and his classic colors.
     <p align="center"><img src="screenshots/FireShot Capture 073 - Am I Responsive_ - ui.dev.png"></p>
 
     - ### Link Home
-        <img src="screenshots/home.png">
+        <img src="screenshots/Home.png">
 
         - To return to index page and the user can choose another option (number of maches).
         - Before it was written as "Home", but I decided to remove the word and change to an icon, because I wanted it to take up less space on the screen, leaving it like this the cleanest look.
 
     - ### Link Restart
-        <img width="10rem" height="auto" src="screenshots/restart.png">
+        <img src="screenshots/Restart.png">
 
         - As well as the "Home" button, the "Reset" button has also been replaced to an icon.
         - The "Restart" button refreshes the <>Game.html page.
