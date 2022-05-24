@@ -95,7 +95,7 @@ The game design was inspired by mickey and his classic colors.
         - On the left ear is written "User" which should indicate to the user that the left side of the game (Dots on the Board and Mickey's Hands on the left side) belongs to the user and the right side belongs to the PC.
 
     - ### Hands
-        <img src="screenshots/Hands.png">
+        <img src="screenshots/Hands Mickey.png">
 
         - The hands I draw on Krita. I couldn't find images of hands in the formats I wanted with a transparent background to use on the site.
 
