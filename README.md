@@ -66,7 +66,7 @@ The game design was inspired by mickey and his classic colors.
     <p align="center"><img src="screenshots/FireShot Capture 074 - Am I Responsive_ - ui.dev.png"></p>
 
     - ### Choose the number of maches
-        <img src="screenshots/Number of maches.PNG">
+        <img src="screenshots/Number of maches.png">
 
         - There are only three options: "Two out of three", "Three out of five" and "To infinity... and beyond!"
         - The first two are easy to understand, the first option is three plays on total and the second is five, but the third is "infinite" plays, in JavaScript code the limit is 9999, I left this option just for fun and testing.
